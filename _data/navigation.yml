@@ -1,0 +1,20 @@
+# Site navigation links
+
+#- title: All Posts
+#  url: /posts/
+
+- title: Products
+  url: /products/
+
+- title: Docs
+  url: /docs/
+
+#- title: Forum
+#  url: /forum/
+
+- title: FAQ
+  url: /faq/
+
+- title: About
+  url: /about/
+

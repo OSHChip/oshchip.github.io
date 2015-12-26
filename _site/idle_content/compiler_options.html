@@ -1,0 +1,309 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>OSHChip V1.0 &#8211; oshchip.org</title>
+<meta name="description" content="Compiler Options">
+<meta name="keywords" content="OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart, Keil, ARM, GCC, Debug, IAR">
+
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="OSHChip V1.0">
+<meta name="twitter:description" content="Compiler Options">
+<meta name="twitter:site" content="@PhilipFreidin">
+<meta name="twitter:creator" content="@PhilipFreidin">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:4000/images/header.jpg">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="OSHChip V1.0">
+<meta property="og:description" content="Compiler Options">
+<meta property="og:url" content="http://localhost:4000/idle_content/compiler_options.html">
+<meta property="og:site_name" content="oshchip.org">
+<meta property="og:image" content="http://localhost:4000/images/20-15/10/oshchip.jpg">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/idle_content/compiler_options.html">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="oshchip.org Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="http://localhost:4000/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="http://localhost:4000/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+<link rel="canonical" href="http://oshchip.org/idle_content/compiler_options.html" />
+
+</head>
+
+<body class="page">
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+<div class="navigation-wrapper">
+	<div class="site-name">
+		<a href="http://localhost:4000">oshchip.org</a>
+	</div><!-- /.site-name -->
+	<div class="top-navigation">
+		<nav role="navigation" id="site-nav" class="nav">
+		    <ul>
+		        
+					    
+					        
+					    
+					    <li><a href="http://localhost:4000/products/" >Products</a></li>
+					  
+					    
+					        
+					    
+					    <li><a href="http://localhost:4000/docs/" >Docs</a></li>
+					  
+					    
+					        
+					    
+					    <li><a href="http://localhost:4000/faq/" >FAQ</a></li>
+					  
+					    
+					        
+					    
+					    <li><a href="http://localhost:4000/about/" >About</a></li>
+					  
+            <!-- google search -->
+            <li> 
+              <form style="display: inline;" onsubmit="my_search_google()" >
+                <input style="width: 200px;" 
+                       type="text" placeholder="Search" 
+                       id="my-google-search"/>
+              </form>
+            </li>
+        </ul>
+		</nav>
+	</div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
+
+
+
+  <div class="image-wrap">
+  <img src=
+    
+      "http://localhost:4000/images/header.jpg"
+    
+  alt="OSHChip V1.0 feature image">
+  
+  </div><!-- /.image-wrap -->
+
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    
+
+
+
+	<img src="http://localhost:4000/images/OSHChip_Avatar.jpg" class="bio-photo" alt="OSHChip bio photo">
+
+<h3>OSHChip</h3>
+<p>32 bit Cortex-M0 with 256 KB Flash, 32KB RAM, and Bluetooth LE radio</p>
+<a href="mailto:philip@oshchip.org" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
+<a href="http://twitter.com/PhilipFreidin" class="author-social" target="_blank"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a>
+
+
+
+
+
+<a href="http://github.com/oshchip" class="author-social" target="_blank"><i class="fa fa-fw fa-github"></i> Github</a>
+
+
+
+
+
+
+
+
+
+  </div>
+  <article class="page">
+    <h1>OSHChip V1.0</h1>
+    <div class="article-wrap">
+      <p><img src="/images/2015/11/OSHChip_Black_on_breadboard_4.JPG" alt="OSHChip" title="OSHChip" /></p>
+
+<h1 id="cc-compilers">C/C++ Compilers</h1>
+
+<p>OSHChip_V1.0 has an ARM Cortex-M0 processor, 256 KBytes of flash
+memory for program storage, 32 KBytes of SRAM for data storage, and a
+wide range of peripheral blocks. Programs for OSHChip_V1.0 can be
+written in any programming language for which you have a compiler, or
+even assembler can be used. Predominantly, C or C++ is used, and there
+are several compilers to choose between. This page will help you
+decide which one is best for your situation.</p>
+
+<ul>
+  <li>Compiler overview
+    <ul>
+      <li>Top level synopsys</li>
+      <li>Important factors</li>
+    </ul>
+  </li>
+  <li>Keil
+    <ul>
+      <li>Capabilities and Limitations</li>
+      <li>Running on Windows</li>
+      <li>Running on Mac or Linux</li>
+      <li>Debugging</li>
+    </ul>
+  </li>
+  <li>mbed
+    <ul>
+      <li>Capabilities and Limitations</li>
+      <li>Run anywhere</li>
+      <li>Debugging</li>
+      <li>Libraries</li>
+      <li>Community</li>
+    </ul>
+  </li>
+  <li>GCC
+    <ul>
+      <li>Capabilities and Limitations</li>
+      <li>Running on Windows</li>
+      <li>Running on Mac or Linux</li>
+      <li>Debugging</li>
+    </ul>
+  </li>
+  <li>Arduino
+    <ul>
+      <li>Capabilities and Limitations</li>
+      <li>Running on Windows</li>
+      <li>Running on Mac or Linux</li>
+      <li>Debugging</li>
+    </ul>
+  </li>
+  <li><a href="#overview">Overview</a>
+    <ul>
+      <li><a href="#philosophy">Philosophy</a></li>
+      <li><a href="#html">Inline HTML</a></li>
+      <li><a href="#autoescape">Automatic Escaping for Special Characters</a></li>
+    </ul>
+  </li>
+  <li><a href="#block">Block Elements</a></li>
+</ul>
+
+<p>OSHChip V1.0 includes the following functional blocks
+* ARM Cortex-M0 32 bit micro processor running at 16 MHz
+* 256KB Flash Memory
+* 32KB SRAM
+* 2.4 GHz Radio supports 4 protocols:
+    * Bluetooth Low Energy (BLE) / Bluetooth Smart
+      - Supports communications from OSHChip to smart phones that support BLE
+    * ANT
+    * Proprietary Gazell
+    * Proprietary ESB
+      - Supports Chip to Chip communications.
+* Built-in antenna, range is 10 to 20 feet, depending on environment (metal, desks, chairs, …)
+* Runs from 1.8V to 3.6V .  Multiple low power modes
+* 14 general purpose I/O pins. All peripherals (except ADC) can use any I/O pin
+* UART
+* 10-bit ADC
+* Counter/Timers
+* SPI
+* I2C
+* Temp
+* RTC
+* Watchdog Timer
+* Quadrature Decoder
+* AES Encryption
+* Random Number Generator.
+* 3 On-board LEDs (near top connector), Red Green and Blue.</p>
+
+
+    </div><!-- /.article-wrap -->
+    
+      <section id="disqus_thread"></section><!-- /#disqus_thread -->
+    
+  </article>
+</div><!-- /#index -->
+
+<div class="footer-wrap">
+  <footer>
+    
+
+<span>&copy; 2015 OSHChip. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="http://mademistakes.com/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a> theme.</span>
+
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+<!-- MathJax -->
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+  
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'oshchiporg'; // required: replace example with your forum shortname
+    var disqus_url = "http://oshchip.org/idle_content/compiler_options.html";
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+          
+
+</body>
+</html>
