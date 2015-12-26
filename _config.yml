@@ -2,8 +2,8 @@
 
 title:            oshchip.org
 locale:           en_US
-url:              http://localhost:4000
-#url:              http://oshchip.org
+#url:              http://localhost:4000
+url:              http://oshchip.org
 
 # Jekyll configuration
 
