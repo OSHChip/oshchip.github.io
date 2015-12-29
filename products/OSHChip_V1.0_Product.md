@@ -5,7 +5,7 @@ excerpt: "Product Description"
 tags: [OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics]
 comments: false
-modified: 2015-12-18
+modified: 2015-12-29
 thumbnail: images/2015/10/oshchip.jpg
 image:
   feature: header.jpg
@@ -57,10 +57,17 @@ OSHChip V1.0 includes the following functional blocks:
 * Random Number Generator.
 * 3 On-board LEDs (near top connector), Red Green and Blue.
 
+#Open Source
+
+OSHChip_V1.0 is an Open Source Hardware design. It's right there
+in the name. You can find all the schematics, bill of materials,
+printed circuit board design files and the resultant Gerber files
+here: [https://github.com/OSHChip/OSHChip_V1.0_Docs](https://github.com/OSHChip/OSHChip_V1.0_Docs)
+
 #Resources
 
 At the heart of OSHChip_V1.0 is a System-On-Chip (SOC) manufactured by
-[Nordic Semiconductors](https://www.nordicsemi.com/). The specific
+[Nordic&nbsp;Semiconductors](https://www.nordicsemi.com/). The specific
 product is the
 [nRF51822](https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-
 Bluetooth-low-energy/nRF51822)
@@ -105,5 +112,3 @@ OSHChip_V1.0 uses the nRF51822 described by:
 |:-----------|----------:|
 |nRF51822 Product Specification | version 3.1 | 
 |nRF51 Series Reference Manual | version 3.0 |
-
-

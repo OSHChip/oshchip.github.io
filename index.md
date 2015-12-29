@@ -1,12 +1,15 @@
 ---
 layout: home_no_recents
 excerpt: "OSHChip home on the WWW"
-tags: [Jekyll, theme, responsive, blog, template]
+tags: [OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
+categories: [Electronics]
+comments: false
+modified: 2015-12-29
 image:
   feature: header.jpg
 ---
 
-OSHChip   One product, Two views
+OSHChip:&emsp;One product, Two views
 ================================
 
 ### OSHChip as a general purpose processor board
@@ -33,10 +36,7 @@ Unlike other processor boards that are far larger, OSHChip can be
 plugged into the middle two rows of a bread board, and it doesn't
 cover the connected holes that you will be connecting to.
 
-OSHChip_V1.0 is an Open Source Hardware design. It's right there
-in the name. You can find all the schematics, bill of materials,
-printed circuit board design files and the resultant Gerber files
-here: [https://github.com/OSHChip/OSHChip_V1.0_Docs](https://github.com/OSHChip/OSHChip_V1.0_Docs)
+Take me to the [OSHChip Product Page](products/OSHChip_V1.0_Product.html)
 
 
 ### OSHChip as a platform for designing custom chips
@@ -55,4 +55,4 @@ terminal program on your computer, and lets add in a 2.4 GHz radio
 that can operate with the Bluetooth Low Energy protocol to smart
 phones, like Android phones and iDevices.
 
-
+[Chip Design with OSHChip](chipdesign/index.html)
