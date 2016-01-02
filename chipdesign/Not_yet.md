@@ -5,8 +5,7 @@ excerpt: "Chip Design Introduction"
 tags: [OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart, Chip Design]
 categories: [Electronics, IC Design]
 comments: false
-modified: 2015-12-29
-thumbnail: images/2015/10/oshchip.jpg
+modified: 2016-01-02
 image:
   feature: header.jpg
 ---

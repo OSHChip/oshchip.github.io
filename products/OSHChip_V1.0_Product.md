@@ -5,13 +5,12 @@ excerpt: "Product Description"
 tags: [OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics]
 comments: false
-modified: 2015-12-29
-thumbnail: images/2015/10/oshchip.jpg
+modified: 2016-01-02
 image:
   feature: header.jpg
 ---
 
-![OSHChip](/images/2015/11/OSHChip_Black_on_breadboard_4.JPG "OSHChip")
+![OSHChip](/images/OSHChip_Black_on_breadboard_4.jpg "OSHChip")
  
 #Features
 
@@ -110,5 +109,11 @@ OSHChip_V1.0 uses the nRF51822 described by:
 
 |**Document**|**Version**|
 |:-----------|----------:|
-|nRF51822 Product Specification | version 3.1 | 
-|nRF51 Series Reference Manual | version 3.0 |
+|[nRF51822 Product Specification](https://www.nordicsemi.com/eng/nordic/download_resource/20339/13/41227812) | version 3.1 |
+|[nRF51 Series Reference Manual](https://www.nordicsemi.com/eng/nordic/download_resource/20337/12/45450728) | version 3.0 |
+
+
+#Gallery
+
+![OSHChip](/images/First_OSHChip_V1.0_Array.jpg "OSHChip")
+OSHChip_V1.0 is manufactured in a panelized form

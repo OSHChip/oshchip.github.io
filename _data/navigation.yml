@@ -9,6 +9,9 @@
 - title: Docs
   url: /docs/
 
+- title: Chip Design
+  url: /chipdesign/
+
 #- title: Forum
 #  url: /forum/
 
@@ -17,4 +20,3 @@
 
 - title: About
   url: /about/
-
