@@ -10,7 +10,7 @@ image:
   feature: header.jpg
 ---
 
-![OSHChip](/images/OSHChip_Black_on_breadboard_4.jpg "OSHChip")
+![OSHChip](/images/OSHChip_Black_on_breadboard.jpg "OSHChip")
  
 #Features
 
