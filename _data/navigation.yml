@@ -15,6 +15,9 @@
 #- title: Forum
 #  url: /forum/
 
+- title: Buy
+  url: /buy/
+  
 - title: FAQ
   url: /faq/
 

@@ -32,8 +32,8 @@ OSHChip V1.0 includes the following functional blocks:
 * 32KB SRAM
 * 2.4 GHz Radio supports 4 protocols:
   * Bluetooth Low Energy (BLE) / Bluetooth Smart
-    * Supports communications from OSHChip to  
-      smart phones that support BLE
+    * Supports communications from OSHChip  
+      to smart phones that support BLE
   * ANT
   * Proprietary Gazell
   * Proprietary ESB
@@ -63,7 +63,21 @@ in the name. You can find all the schematics, bill of materials,
 printed circuit board design files and the resultant Gerber files
 here: [https://github.com/OSHChip/OSHChip_V1.0_Docs](https://github.com/OSHChip/OSHChip_V1.0_Docs)
 
+#Related Information
+
+* [Is OSHChip right for me](Is_OSHChip_right_for_me.html)
+
 #Resources
+
+* [Nordic Semiconductors Documentation library](http://infocenter.nordicsemi.com/index.jsp)
+* [Nordic Semiconductors Development Libraries (SDK)](http://developer.nordicsemi.com)
+* [Nordic Semiconductors Developer Zone (User Forum)](https://devzone.nordicsemi.com/questions/)
+* [Setting up development with Keil](Sorry_not_yet_written.html)
+* [Setting up development with GCC on Mac OS X](https://devzone.nordicsemi.com/blogs/22/getting-started-with-nrf51-development-on-mac-os-x/)
+* [Setting up development with GCC and Ubuntu](Sorry_not_yet_written.html)
+* [Setting up development with mbed](Sorry_not_yet_written.html)
+* [Setting up development with GCC and Windows 7](Sorry_not_yet_written.html)
+* [Setting up development with Arduino](Sorry_not_yet_written.html)
 
 At the heart of OSHChip_V1.0 is a System-On-Chip (SOC) manufactured by
 [Nordic&nbsp;Semiconductors](https://www.nordicsemi.com/). The specific

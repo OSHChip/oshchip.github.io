@@ -3,7 +3,7 @@ layout: page
 title: OSHChip_CMSIS_DAP V1.0
 excerpt: "Product Description"
 tags: [SWD, Debug, OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
-categories: [Electronics]
+categories: [Electronics, Programming, Debugging]
 comments: false
 modified: 2016-01-02
 image:
@@ -14,22 +14,37 @@ image:
 
 #OSHChip's Programmer and Debugger
 
-[OSHChip](OSHChip_V1.0_Product.html) contains 256 K Bytes of on&#8209;chip
-Flash memory which is used for the your application program, the
-optional radio protocol software stack (such as Bluetooth Low Energy
-(BLE) or Gazell ) and also for non-volatile storage. The OSHChip
-has a small 4 pin connector on the top side that is used for
-programming this Flash memory, and can also be used for debugging. The
-4 pins are the minimal pins needed to implement the ARM Cortex SWD
-interface. SWD is used on ARM processors from many companies, and so
-OSHChip_CMSIS_DAP&nbsp;V1.0 can be used with products other than
-OSHChip. The SWD standard specifies a 10 pin (2&nbsp;by&nbsp;5)
-connector with pin spacing in X and Y of 0.050" (1.27mm). To convert
-from the 2&nbsp;by&nbsp;5 layout on the OSHChip_CMSIS_DAP&nbsp;V1.0
-to the 2&nbsp;by&nbsp;2 layout on the OSHChip, a small adapter
-[OSHChip SWD 2x2 Adapter](/products/OSHChip_SWD_2x2_Adapter.html)
-is available. It is provided free when both OSHChip and OSHChip_CMSIS_DAP&nbsp;V1.0
-are ordered at the same time.
+####Programming
+
+[OSHChip](OSHChip_V1.0_Product.html) contains 256 K Bytes of
+on&#8209;chip Flash memory which is used for your application program,
+the optional radio protocol software stack (such as Bluetooth Low
+Energy (BLE) or Gazell) and also for non-volatile storage. After you
+have written your application program and compiled it successfully,
+your next step it to program the on&#8209;chip Flash memory with the
+compiled and linked image. This is usually a .HEX file.
+OSHChip_CMSIS_DAP V1.0 is the tool for the job.
+
+####Debugging
+
+With many alternative processor boards, in particular the various
+Arduino and mbed devices, that would be the end of the story: Download
+your program, and if it doesn't work, your available debug tools are
+pretty much limited to flashing a LED, or using printf() to display
+the value of some variables at one point in the program, at one
+particular time. OSHChip has a much more sophisticated solution thanks
+to the extensive debug support built into the Keil IDE and the
+CMSIS-DAP functionality provided by OSHChip_CMSIS_DAP V1.0 . With this
+combination, you get best in class capabilities such as break points,
+examining and changing memory, single stepping through your code, and
+even breakpoints when a variable is read or written or matches a
+specific value. Once you have used this type of debugging
+functionality, you won't want to go back to just flashing a LED or
+using printf().
+
+####Programming and Debugging cable and adapter
+
+{% include cable_and_adapter.md %}
 
 ## Services
 
