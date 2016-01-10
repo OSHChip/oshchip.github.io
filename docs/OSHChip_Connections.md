@@ -5,7 +5,7 @@ excerpt: "Connecting CMSIS-DAP to OSHChip"
 tags: [OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics]
 comments: false
-modified: 2016-01-06
+modified: 2016-01-07
 image:
   feature: header.jpg
 ---
@@ -109,5 +109,3 @@ that mates with the connector on the top of OSHChip.
 <img src="/images/OSHChip_adapter_DAP.jpg" width="600"><br>
 <b>OSHChip, Adapter, Cable, and OSHChip_CMSIS_Dap</b>
 </center>
-
-

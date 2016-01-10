@@ -2,7 +2,7 @@
 layout: page
 title: How to buy OSHChips
 tags: [Buy, OSHChip]
-modified: 2016-01-06
+modified: 2016-01-07
 comments: false
 image:
   feature: header.jpg
@@ -14,15 +14,17 @@ but it has not been setup yet. Until then, sales enquiries can be sent to
 
 ###Typical Orders
 
-Typically you will buy one or more OSHChips and one OSHChip_CMSIS_DAP
+Typically you will buy one or more [OSHChips V1.0](/products/OSHChip_V1.0_Product.html)
+and one [OSHChip_CMSIS_DAP&nbsp;V1.0](/products/OSHChip_CMSIS_DAP_V1.0_Product.html)
 programmer/debugger (if you don't already have one).
 
-Each OSHChip_CMSIS_DAP programmer/debugger comes with an SWD programming
-cable, which is a 10 wire ribbon cable with a 0.050" pitch 2&nbsp;by&nbsp;5
-pin female keyed IDC connector at each end, and an *SWD 2x5 to 2x2 Adapter*
-designed specifically for OSHChip.
+Each OSHChip_CMSIS_DAP&nbsp;V1.0 programmer/debugger comes with an
+[SWD programming cable](/products/Programming_Cable.html), which is a
+10 wire ribbon cable with a 0.050" pitch 2&nbsp;by&nbsp;5
+pin female keyed IDC connector at each end, and an [SWD 2x5 to 2x2 Adapter](/products/OSHChip_SWD_2x2_Adapter.html)
+designed specifically for OSHChip V1.0.
 
-The OSHChip_CMSIS_DAP programmer/debugger connects to your computer via a
+The OSHChip_CMSIS_DAP&nbsp;V1.0 programmer/debugger connects to your computer via a
 USB cable that has a Mini-B plug at the OSHChip_CMSIS_DAP end. The USB
 cable is not supplied by OSHChip.
 
@@ -55,14 +57,14 @@ cable is not supplied by OSHChip.
 <b>SWD 2x5 to 2x2 Adapter</b>
 </center>
 
-#Pricing
+###Pricing
 
-|**Item**                           |**Price in USD**|
-|:----------------------------------|---------------:|
-|OSHChip V1.0                       |          $25.00|
-|OSHChip_CMSIS_DAP V1.0             |          $30.00|
-|Shipping & Handling USA            |           $7.00|
-|Shipping & Handling International  |          $27.00|
+|**Item**                                              |**Price in USD**|
+|:-----------------------------------------------------|---------------:|
+|OSHChip V1.0                                          |          $25.00|
+|OSHChip_CMSIS_DAP V1.0 (including cable and adapter)  |          $35.00|
+|Shipping & Handling USA                               |           $7.00|
+|Shipping & Handling International                     |          $27.00|
 
 Shipping rates are fixed for orders up to $500. For larger orders, shipping
 will be charged at our cost, and will require your approval for your order

@@ -8,6 +8,4 @@ products other than OSHChip. The SWD standard specifies a 10 pin
 (1.27mm). To convert from the 2&nbsp;by&nbsp;5 layout on the
 OSHChip_CMSIS_DAP&nbsp;V1.0 to the 2&nbsp;by&nbsp;2 layout on the
 OSHChip, a small adapter [OSHChip SWD 2x2
-Adapter](/products/OSHChip_SWD_2x2_Adapter.html) is available. It is
-provided free when both OSHChip and OSHChip_CMSIS_DAP&nbsp;V1.0 are
-ordered at the same time.
+Adapter](/products/OSHChip_SWD_2x2_Adapter.html) is available.

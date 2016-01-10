@@ -34,10 +34,11 @@ OSHChip V1.0 includes the following functional blocks:
   * Bluetooth Low Energy (BLE) / Bluetooth Smart
     * Supports communications from OSHChip  
       to smart phones that support BLE
-  * ANT
-  * Proprietary Gazell
-  * Proprietary ESB
+  * Gazell
     * Supports Chip to Chip communications.
+  * ESB (Enhanced Shock Burst)
+    * Supports Chip to Chip communications.
+  * ANT (optional, by request)
 * Built-in antenna, range is 10 to 20 feet, depending  
   on environment (metal, desks, chairs, ...)
 * Runs from 1.8V to 3.6V .  Multiple low power modes
@@ -66,6 +67,7 @@ here: [https://github.com/OSHChip/OSHChip_V1.0_Docs](https://github.com/OSHChip/
 #Related Information
 
 * [Is OSHChip right for me](Is_OSHChip_right_for_me.html)
+* [Connecting OSHChip to the programmer/debugger](/docs/OSHChip_Connections.html)
 
 #Resources
 

@@ -1,18 +1,17 @@
 ---
 layout: page
-title: OSHChip_CMSIS_DAP V1.0
+title: OSHChip's Programmer and Debugger
 excerpt: "Product Description"
 tags: [SWD, Debug, OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics, Programming, Debugging]
 comments: false
-modified: 2016-01-02
+modified: 2016-01-07
 image:
   feature: header.jpg
 ---
 
 ![OSHChip](/images/OSHChip_CMSIS_DAP_V1.0.jpg "OSHChip_CMSIS_DAP V1.0")
 
-#OSHChip's Programmer and Debugger
 
 ####Programming
 
@@ -22,7 +21,7 @@ the optional radio protocol software stack (such as Bluetooth Low
 Energy (BLE) or Gazell) and also for non-volatile storage. After you
 have written your application program and compiled it successfully,
 your next step it to program the on&#8209;chip Flash memory with the
-compiled and linked image. This is usually a .HEX file.
+compiled and linked image. This is usually a .HEX file.  
 OSHChip_CMSIS_DAP V1.0 is the tool for the job.
 
 ####Debugging
@@ -34,11 +33,11 @@ pretty much limited to flashing a LED, or using printf() to display
 the value of some variables at one point in the program, at one
 particular time. OSHChip has a much more sophisticated solution thanks
 to the extensive debug support built into the Keil IDE and the
-CMSIS-DAP functionality provided by OSHChip_CMSIS_DAP V1.0 . With this
-combination, you get best in class capabilities such as break points,
-examining and changing memory, single stepping through your code, and
-even breakpoints when a variable is read or written or matches a
-specific value. Once you have used this type of debugging
+CMSIS-DAP functionality provided by OSHChip_CMSIS_DAP&nbsp;V1.0 .
+With this combination, you get best in class capabilities such as
+break points, examining and changing memory, single stepping through
+your code, and even breakpoints when a variable is read or written or
+matches a specific value. Once you have used this type of debugging
 functionality, you won't want to go back to just flashing a LED or
 using printf().
 
@@ -46,7 +45,7 @@ using printf().
 
 {% include cable_and_adapter.md %}
 
-## Services
+####Services
 
 OSHChip_CMSIS_DAP_V1.0 connects to a host computer over a USB 2.0 interface
 and provides 3 services:
@@ -69,7 +68,11 @@ be connected to anywhere in your system that has async serial I/O, so
 no specific pins on OSHChip_V1.0 are required. I haven't tested it
 yet, but it should work from 9600 to 115200 BAUD.
 
-# Open Source
+####Related Information
+
+* [Connecting OSHChip to the programmer/debugger](/docs/OSHChip_Connections.html)
+
+####Open Source
 
 OSHChip_CMSIS_DAP_V1.0 is an open source product. 
 
@@ -126,7 +129,7 @@ In the *Other_Files* directory, you will find the following:
 * OSHChip_CMSIS-DAP_V1.0___Bill_of_Materials.PDF
 
 
-#### The Firmware parent
+####The Firmware parent
 
 The Firmware is described here <a href="https://developer.mbed.org/handbook/cmsis-dap-interface-firmware" target="_blank">mbed HDK Firmware</a>
 
@@ -144,7 +147,7 @@ It is here <a href="https://github.com/xiongyihui/CMSIS-DAP" target="_blank">Fir
 For the firmware, only very minor cosmetic changes were made
 to acknowledge its origin.
 
-#### License: Apache 2.0
+####License: Apache 2.0
 
 The License for the mbed files is Apache 2.0 and can be found in
 the repositories linked above.

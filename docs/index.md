@@ -8,11 +8,13 @@ image:
   feature: header.jpg
 ---
 
-#OSHChip documentation (Just place holders for now)
+#OSHChip documentation (Mostly place holders for now)
 
 * [Schematic for OSHChip V1.0](Sorry_not_yet_written.html)
 * [Schematic for OSHChip_CMSIS_DAP V1.0](Sorry_not_yet_written.html)
+* [Connecting OSHChip to the Programmer/Debugger](OSHChip_Connections.html)
 * [Getting started with OSHChip](Sorry_not_yet_written.html)
+* [Getting started with the Keil Compiler and IDE](Sorry_not_yet_written.html)
 * [A simple example without radio](Sorry_not_yet_written.html)
 * [Simple OSHChip to OSHChip using Gazell](Sorry_not_yet_written.html)
 * [Simple OSHChip to iPhone using BLE](Sorry_not_yet_written.html)
