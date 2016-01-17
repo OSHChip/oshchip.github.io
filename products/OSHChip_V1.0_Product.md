@@ -5,14 +5,14 @@ excerpt: "Product Description"
 tags: [OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics]
 comments: false
-modified: 2016-01-02
+modified: 2016-01-14
 image:
   feature: header.jpg
 ---
 
 ![OSHChip](/images/OSHChip_Black_on_breadboard.jpg "OSHChip")
  
-#Features
+##Features
 
 OSHChip V1.0 is a minature processor board that packs an amazing
 amount of functionality into the space of a traditional 16 pin DIP
@@ -57,29 +57,50 @@ OSHChip V1.0 includes the following functional blocks:
 * Random Number Generator.
 * 3 On-board LEDs (near top connector), Red Green and Blue.
 
-#Open Source
+##Open Source
 
 OSHChip_V1.0 is an Open Source Hardware design. It's right there
 in the name. You can find all the schematics, bill of materials,
 printed circuit board design files and the resultant Gerber files
 here: [https://github.com/OSHChip/OSHChip_V1.0_Docs](https://github.com/OSHChip/OSHChip_V1.0_Docs)
 
-#Related Information
+####Navigating the GitHub repository for OSHChip V1.0
+
+The repository contains the design files for OSHChip V1.0
+
+The PCB design files are in the directory *Design_Files* and were
+created with Altium Designer Release 10
+
+Since you may not have access to Altium Designer, I have also
+included all the Gerber files and the Excelon drill file in the
+directory *Gerbers_and_Drill_Files*.
+
+In the *Other_Files* directory, you will find the following:
+
+* OSHChip_V1.0___Schematic.PDF
+* OSHChip_V1.0___PCB_Prints.PDF
+* OSHChip_V1.0___Assembly_Drawings.PDF
+* OSHChip_V1.0___Bill_of_Materials.xls
+* OSHChip_V1.0___Bill_of_Materials.PDF
+
+##Related Information
 
 * [Is OSHChip right for me](Is_OSHChip_right_for_me.html)
 * [Connecting OSHChip to the programmer/debugger](/docs/OSHChip_Connections.html)
 
-#Resources
+##Resources
 
-* [Nordic Semiconductors Documentation library](http://infocenter.nordicsemi.com/index.jsp)
-* [Nordic Semiconductors Development Libraries (SDK)](http://developer.nordicsemi.com)
-* [Nordic Semiconductors Developer Zone (User Forum)](https://devzone.nordicsemi.com/questions/)
-* [Setting up development with Keil](Sorry_not_yet_written.html)
-* [Setting up development with GCC on Mac OS X](https://devzone.nordicsemi.com/blogs/22/getting-started-with-nrf51-development-on-mac-os-x/)
-* [Setting up development with GCC and Ubuntu](Sorry_not_yet_written.html)
-* [Setting up development with mbed](Sorry_not_yet_written.html)
-* [Setting up development with GCC and Windows 7](Sorry_not_yet_written.html)
-* [Setting up development with Arduino](Sorry_not_yet_written.html)
+* Valid links
+  * [Nordic Semiconductors Documentation library](http://infocenter.nordicsemi.com/index.jsp)
+  * [Nordic Semiconductors Development Libraries (SDK)](http://developer.nordicsemi.com)
+  * [Nordic Semiconductors Developer Zone (User Forum)](https://devzone.nordicsemi.com/questions/)
+  * [Setting up development with GCC on Mac OS X](https://devzone.nordicsemi.com/blogs/22/getting-started-with-nrf51-development-on-mac-os-x/)
+* These links are place holders
+  * [Setting up development with Keil](Sorry_not_yet_written.html)
+  * [Setting up development with GCC and Ubuntu](Sorry_not_yet_written.html)
+  * [Setting up development with mbed](Sorry_not_yet_written.html)
+  * [Setting up development with GCC and Windows 7](Sorry_not_yet_written.html)
+  * [Setting up development with Arduino](Sorry_not_yet_written.html)
 
 At the heart of OSHChip_V1.0 is a System-On-Chip (SOC) manufactured by
 [Nordic&nbsp;Semiconductors](https://www.nordicsemi.com/). The specific
@@ -129,7 +150,8 @@ OSHChip_V1.0 uses the nRF51822 described by:
 |[nRF51 Series Reference Manual](https://www.nordicsemi.com/eng/nordic/download_resource/20337/12/45450728) | version 3.0 |
 
 
-#Gallery
-
-![OSHChip](/images/First_OSHChip_V1.0_Array.jpg "OSHChip")
-OSHChip_V1.0 is manufactured in a panelized form
+##Gallery
+<html>
+<center><img src="/images/First_OSHChip_V1.0_Array_Width_600.jpg" alt="OSHChip" width="600"></center>
+<center><b>OSHChip_V1.0 is manufactured in a panelized form</b></center>
+</html>

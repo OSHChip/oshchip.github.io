@@ -74,7 +74,30 @@ yet, but it should work from 9600 to 115200 BAUD.
 
 ####Open Source
 
-OSHChip_CMSIS_DAP_V1.0 is an open source product. 
+OSHChip_CMSIS_DAP_V1.0 is an open source product.  It's right there
+in the name. You can find all the schematics, bill of materials,
+printed circuit board design files and the resultant Gerber files
+here: [https://github.com/OSHChip/OSHChip_CMSIS_DAP_V1.0_Docs](https://github.com/OSHChip/OSHChip_CMSIS_DAP_V1.0_Docs)
+
+####Navigating the GitHub repository for OSHChip_CMSIS_DAP V1.0
+
+The repository contains the design files for OSHChip_CMSIS_DAP V1.0
+
+The PCB design files are in the directory *Design_Files* and were
+created with Altium Designer Release 10
+
+Since you may not have access to Altium Designer, I have also
+included all the Gerber files and the Excelon drill file in the
+directory *Gerbers_and_Drill_Files*.
+
+In the *Other_Files* directory, you will find the following:
+
+* OSHChip_CMSIS-DAP_V1.0___Schematic.PDF
+* OSHChip_CMSIS-DAP_V1.0___PCB_Prints.PDF
+* OSHChip_CMSIS-DAP_V1.0___Assembly_Drawings.PDF
+* OSHChip_CMSIS-DAP_V1.0___Bill_of_Materials.xls
+* OSHChip_CMSIS-DAP_V1.0___Bill_of_Materials.PDF
+
 
 #### OSHChip_CMSIS_DAP_V1.0 design Parent
 
@@ -108,26 +131,6 @@ The Hardware files are here <a href="https://developer.mbed.org/teams/mbed/code/
 You can find all the schematics, bill of materials,
 printed circuit board design files and the resultant Gerber files
 here: [https://github.com/OSHChip/OSHChip_CMSIS_DAP_V1.0_Docs](https://github.com/OSHChip/OSHChip_CMSIS_DAP_V1.0_Docs)
-
-#### Navigating the GitHub repository for OSHChip_CMSIS_DAP V1.0
-
-The repository contains the design files for OSHChip_CMSIS_DAP V1.0
-
-The PCB design files are in the directory *Design_Files* and were
-created with Altium Designer Release 10
-
-Since you may not have access to Altium Designer, I have also
-included all the Gerber files and the Excelon drill file in the
-directory *Gerbers_and_Drill_Files*.
-
-In the *Other_Files* directory, you will find the following:
-
-* OSHChip_CMSIS-DAP_V1.0___Schematic.PDF
-* OSHChip_CMSIS-DAP_V1.0___PCB_Prints.PDF
-* OSHChip_CMSIS-DAP_V1.0___Assembly_Drawings.PDF
-* OSHChip_CMSIS-DAP_V1.0___Bill_of_Materials.xls
-* OSHChip_CMSIS-DAP_V1.0___Bill_of_Materials.PDF
-
 
 ####The Firmware parent
 

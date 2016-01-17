@@ -20,8 +20,8 @@ TLDR; Build a product that is like a 16 pin DIP with amazing capabilities.
 
 Some insights into the conception, design, and trade-offs made in creating
 OSHChip may be of help. While not common for a technical site, I'm going
-to slip into first person for most of what follows since the reality is
-that OSHChip is the work of one person.
+to slip into first person for this section since the reality is that
+OSHChip is the work of one person.
 
 My original plan was to create a platform specifically to support the
 creation of custom chips within the constraints of the programmable
@@ -38,7 +38,7 @@ the rest of the device is very competitive with microprocessors from
 other companies. The biggest challenge for hobbyists though, is that
 the nRF51822 is only available in QFN and BGA packages, which means a
 hobbyist would need to design and manufacture a PCB before they could
-use the nRF51822. And even after creating the PCB, there is the quite
+use the nRF51822. Even after creating the PCB, there is the quite
 significant challenge of soldering a fine pitch QFN device, or the even
 harder fine pitch BGA. While there are multiple manufacturers of
 modules that include this part, all the modules are surface mount, so
@@ -63,12 +63,13 @@ are what I consider the main Pros and Cons for OSHChip.
 ####Pros
 
 - Very small size
+- Very light weight
 - 16 pin format with unique IC type pins, well matched to standard solderless bread boards
 - Rapid prototyping with bread boards
 - Very low power modes
 - Fully functional from 1.8V to 3.6V
 - 32 bit CPU, 256KB of Flash, 32KB of RAM
-- Higher performance and more Flash and RAM than many models of Arduios
+- Higher performance and more Flash and RAM than many models of Arduinos
 - Bluetooth Low Energy radio
 - Proprietary 2.4 GHz radio for chip-to-chip communications
 - Broad range of built in peripherals, similar to most other micro processor products
@@ -89,6 +90,16 @@ are what I consider the main Pros and Cons for OSHChip.
 - Only 14 I/O pins
 - I/O is not 5V compliant
 - I/O pins are only designed to drive CMOS type loads (mostly)
+- Not currently manufactured in high volume, so price is not as low as some recently announced very high volume development boards
+- OSHChip community has not yet been established
+- Relying on 1 person at OSHChip, and the developer communities at Nordic Semiconductor's DevZone for answering questions
+- Currently minimal examples and tutorials
+- It is assumed that you are familiar with processor boards, and you can navigate a processor chips data sheet and the API documentation provided by Nordic Semiconductor
+- Initial support is only for C/C++
+- Not yet integrated into the Arduino IDE
+- Not designed to be soldered directly into a PCB (the pins may come out of the OSHChip board), should use a socket
+- There are other 32 bit ARM CPU boards available with higher clock rates and higher performance
+
 
 
 
