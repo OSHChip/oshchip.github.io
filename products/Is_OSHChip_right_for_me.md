@@ -99,9 +99,3 @@ are what I consider the main Pros and Cons for OSHChip.
 - Not yet integrated into the Arduino IDE
 - Not designed to be soldered directly into a PCB (the pins may come out of the OSHChip board), should use a socket
 - There are other 32 bit ARM CPU boards available with higher clock rates and higher performance
-
-
-
-
-
-

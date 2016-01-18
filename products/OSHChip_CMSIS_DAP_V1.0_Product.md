@@ -57,20 +57,22 @@ programmed via SWD. There is also support for debugging with GCC's GDB
 debugger, via pyOCD. Although not yet tested, OSHChip_CMSIS_DAP&nbsp;V1.0
 should also be compatible with OpenOCD.
 
-* USB MSD (Mass Storage Device), shows up like a USB memory
-stick/drive, named MBED. You can drag and drop .HEX files to this
-drive, and it will convert the file to the appropriate SWD pin
-wiggling and program a nRF51822 which is the processor on OSHChip_V1.0
+* USB MSD (Mass Storage Device), shows up like a USB memory stick/drive,
+named *MBED* or *OSHChip 1.0*. You can drag and drop .HEX files to this
+drive, and it will convert the file to the appropriate SWD pin wiggling
+and program a nRF51822 which is the processor on OSHChip_V1.0. This drag
+and drop interface only works with nRF51822 target processors.
 
-* USB to virtual COM port. The board provides serial I/O at LVTTL (0
-to 3.3V) levels on the 2 pin header on the end of the board. These can
-be connected to anywhere in your system that has async serial I/O, so
-no specific pins on OSHChip_V1.0 are required. I haven't tested it
-yet, but it should work from 9600 to 115200 BAUD.
+* USB to virtual COM port. The board provides serial I/O at LVTTL (0 to
+3.3V) levels on the 2 pin header on the end of the board. These can be
+connected to anywhere in your system that has async serial I/O, so no
+specific pins on OSHChip_V1.0 are required. This interface has been
+tested extensively at 9600 Baud, but it should work at up to 115200 Baud
 
 ####Related Information
 
 * [Connecting OSHChip to the programmer/debugger](/docs/OSHChip_Connections.html)
+* [Connecting and using the serial data interface](OSHChip_CMSIS_DAP_V1.0_Serial_Data_Interface.html)
 
 ####Open Source
 

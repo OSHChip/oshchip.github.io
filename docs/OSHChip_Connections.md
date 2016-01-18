@@ -5,7 +5,7 @@ excerpt: "Connecting CMSIS-DAP to OSHChip"
 tags: [OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics]
 comments: false
-modified: 2016-01-07
+modified: 2016-01-17
 image:
   feature: header.jpg
 ---
@@ -95,7 +95,7 @@ that mates with the connector on the top of OSHChip.
 <br>
 <br>
 
-#Programming/Debugging cable orientation
+##Programming/Debugging cable orientation
 
 ###With the adapter
 
@@ -108,4 +108,24 @@ that mates with the connector on the top of OSHChip.
 <center>
 <img src="/images/OSHChip_adapter_DAP.jpg" width="600"><br>
 <b>OSHChip, Adapter, Cable, and OSHChip_CMSIS_Dap</b>
+</center>
+
+###Without the adapter
+
+OSHChip can be programmed with SWD programmers from other suppliers,
+listed above. Provided they have a programming cable with the
+2&nbsp;by&nbsp;5 pin IDC connector on the end, with 0.05" pitch, they
+can be used to program and debug OSHChip. (the other common ARM debugger
+cables have a 2&nbsp;by&nbsp;10 pin IDC connector on the end, with 0.1"
+pitch, which cannot be used without a suitable conversion from 0.1" to
+0.05" pitch)
+
+To connect the SWD programmer to OSHChip without the adapter, the IDC
+connector must be carefully positioned so that the 4 pins on the top of
+OSHChip fit into the 2&nbsp;by&nbsp;2 pins at the red stripe end of the
+connector. See the picture below.
+
+<center>
+<img src="/images/OSHChip_connected_without_adapter.jpg" width="300"><br>
+<b>Programming cable and OSHChip</b>
 </center>

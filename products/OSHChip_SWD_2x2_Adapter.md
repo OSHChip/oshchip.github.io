@@ -5,7 +5,7 @@ excerpt: "Product Description"
 tags: [SWD, Debug, OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics]
 comments: false
-modified: 2016-01-07
+modified: 2016-01-17
 image:
   feature: header.jpg
 ---
@@ -27,6 +27,19 @@ Cortex SWD interface.
 
 The **OSHChip SWD 2x2 Adapter** provides a compact conversion from
 the 10 pin standard to the 4 pin connector on OSHChip.
+
+##Programming/Debugging cable orientation
+
+<center>
+<img src="/images/Cable_Adapter_and_OSHChip.jpg" width="400"><br>
+<b>Programming cable, adapter, and OSHChip</b>
+</center>
+<br>
+<br>
+<center>
+<img src="/images/OSHChip_adapter_DAP.jpg" width="600"><br>
+<b>OSHChip, Adapter, Cable, and OSHChip_CMSIS_Dap</b>
+</center>
 
 ##Related Information
 
