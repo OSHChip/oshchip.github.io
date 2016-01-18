@@ -5,7 +5,7 @@ excerpt: "Connecting CMSIS-DAP to OSHChip"
 tags: [OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics]
 comments: false
-modified: 2016-01-17
+modified: 2016-01-18
 image:
   feature: header.jpg
 ---
@@ -23,7 +23,15 @@ each connector.
 If you already have an SWD programmer from another vendor, provided
 you also have a programming cable with the 0.050" pitch
 2&nbsp;by&nbsp;5 IDC connector on the end, you can get by without the
-adapter.
+adapter. See below for details.
+
+The alignment key on the programming cable at the programmer end (right
+end in the picture above) must match the alignment mark on the printed
+circuit board. See the following picture.
+
+<center>
+<img src="/images/OSHChip_CMSIS_DAP_J2.jpg" width="500"><br>
+</center>
 
 Looking at the connector from above, with the alignment key on the
 left side, the pins are numbered:
@@ -61,11 +69,41 @@ The required signals are on pins 1, 2, 3, and 4, which are in
 a 2&nbsp;by&nbsp;2 group at the red stripe end of the connector.
 This matches the 2&nbsp;by&nbsp;2 connector on the top of OSHChip.
 
-The cable
-orientation is the same as that used when the adapter is available.
-When attaching the cable to OSHChip, just be very careful that the 4
-pins from OSHChip go into the 4 holes in the connector that are
-closest to the red stripe on the cable.
+##Programming voltages and Connector J1
+
+OSHChip V1.0 can operate from 1.8 V to 3.6V . Typically 3.3V is
+used, and is a requirement if the on-board LEDs are used. The
+OSHChip_CMSIS_DAP V1.0 Programmer/Debugger is powered by the
+USB cable, and has an internal regulator for 3.3V .
+
+####If OSHChip is powered from 2.5V to 3.6V but not 3.3V
+
+* OSHChip can be left connected to the rest of the target system
+* J1 must not have the jumper installed
+* Both programming and debugging can be performed
+
+####If OSHChip is powered at 3.3V
+
+* OSHChip can be left connected to the rest of the target system
+* J1 may have the jumper installed, but it is not necessary
+* Both programming and debugging can be performed
+
+####If OSHChip is powered from 1.8V to 2.4V
+
+* OSHChip must be unplugged from the target system
+* J1 must have the jumper installed
+* Programming can be performed
+* Debugging can only be done if the program being debugged can operate
+without being connected to the rest of the system
+* After programming is finished, the programming cable can be disconnected
+and then OSHChip can be plugged back into the system. **Do not** plug
+it back into the system with the programming cable still atached
+
+<center>
+<img src="/images/OSHChip_CMSIS_DAP_J1.jpg" width="400"><br>
+</center>
+
+##SWD Programmer/Debuggers from other suppliers
 
 Example SWD programmers include:
 
@@ -82,7 +120,7 @@ The following have not been tested, but may work using the Keil IDE
 
 If you do not already have a programmer, when ordering OSHChips you
 should also order an OSHChip_CMSIS_DAP V1.0  It comes with a programming
-cable and an adapter board that converts from the 2&nbsp;by&nbsp;5 pin
+cable and an adapter that converts from the 2&nbsp;by&nbsp;5 pin
 IDC connector on the end of the cable to a 2&nbsp;by&nbsp;2 conector
 that mates with the connector on the top of OSHChip.
 
@@ -123,7 +161,12 @@ pitch, which cannot be used without a suitable conversion from 0.1" to
 To connect the SWD programmer to OSHChip without the adapter, the IDC
 connector must be carefully positioned so that the 4 pins on the top of
 OSHChip fit into the 2&nbsp;by&nbsp;2 pins at the red stripe end of the
-connector. See the picture below.
+connector at the end of the cable. The cable orientation is the same as
+that used when the adapter is available. When attaching the cable to
+OSHChip, just be very careful that the 4 pins from OSHChip go into the 4
+holes in the connector that are closest to the red stripe on the cable.
+
+ See the picture below.
 
 <center>
 <img src="/images/OSHChip_connected_without_adapter.jpg" width="300"><br>

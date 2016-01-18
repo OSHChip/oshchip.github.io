@@ -67,7 +67,7 @@ are what I consider the main Pros and Cons for OSHChip.
 - 16 pin format with unique IC type pins, well matched to standard solderless bread boards
 - Rapid prototyping with bread boards
 - Very low power modes
-- Fully functional from 1.8V to 3.6V
+- Fully functional from 1.8V to 3.6V (except for the LEDs which require at least 3.3V)
 - 32 bit CPU, 256KB of Flash, 32KB of RAM
 - Higher performance and more Flash and RAM than many models of Arduinos
 - Bluetooth Low Energy radio
