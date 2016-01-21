@@ -2,15 +2,14 @@
 layout: page
 title: How to buy OSHChips
 tags: [Buy, OSHChip]
-modified: 2016-01-07
+modified: 2016-01-21
 comments: false
 image:
   feature: header.jpg
 ---
 
-OSHChip is planning to have an online store front on [Tindie](https://www.tindie.com/)
-but it has not been setup yet. Until then, sales enquiries can be sent to
-[philip@oshchip.org](mailto:philip@oshchip.org)
+OSHChip is planning to have an online store front but it has not been setup yet.
+Until then, sales enquiries can be sent to [philip@oshchip.org](mailto:philip@oshchip.org)
 
 ###Typical Orders
 
