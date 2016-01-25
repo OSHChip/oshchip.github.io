@@ -2,7 +2,7 @@
 layout: page
 title: How to buy OSHChips
 tags: [Buy, OSHChip]
-modified: 2016-01-21
+modified: 2016-01-25
 comments: false
 image:
   feature: header.jpg
@@ -28,19 +28,19 @@ USB cable that has a Mini-B plug at the OSHChip_CMSIS_DAP end. The USB
 cable is not supplied by OSHChip.
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border:none;}
-.tg td{font-family:Arial, sans-serif;font-size:18px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:18px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
-.tg .tg-x4jz{font-weight:bold;font-family:"Times New Roman", Times, serif !important;;text-align:center}
+.tgtable1  {border-collapse:collapse;border-spacing:0;border:none;}
+.tgtable1 td{font-family:Arial, sans-serif;font-size:18px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+.tgtable1 th{font-family:Arial, sans-serif;font-size:18px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+.tgtable1 .tgtable1-x4jz{font-weight:bold;font-family:"Times New Roman", Times, serif !important;;text-align:center}
 </style>
-<table class="tg">
+<table class="tgtable1">
   <tr>
-    <th class="tg-x4jz"><img src="/images/OSHChip_on_white_background.jpg" width="200"></th>
-    <th class="tg-x4jz"><img src="/images/OSHChip_CMSIS_DAP_V1.0.jpg" width="400"></th>
+    <th class="tgtable1-x4jz"><img src="/images/OSHChip_on_white_background.jpg" width="200"></th>
+    <th class="tgtable1-x4jz"><img src="/images/OSHChip_CMSIS_DAP_V1.0.jpg" width="400"></th>
   </tr>
   <tr>
-    <td class="tg-x4jz">OSHChip&nbsp;V1.0</td>
-    <td class="tg-x4jz">OSHChip_CMSIS_DAP&nbsp;V1.0</td>
+    <td class="tgtable1-x4jz">OSHChip&nbsp;V1.0</td>
+    <td class="tgtable1-x4jz">OSHChip_CMSIS_DAP&nbsp;V1.0</td>
   </tr>
 </table>
 
@@ -58,15 +58,46 @@ cable is not supplied by OSHChip.
 
 ###Pricing
 
-|**Item**                                              |**Price in USD**|
-|:-----------------------------------------------------|---------------:|
-|OSHChip V1.0                                          |          $25.00|
-|OSHChip_CMSIS_DAP V1.0 (including cable and adapter)  |          $35.00|
-|Shipping & Handling USA                               |           $7.00|
-|Shipping & Handling International                     |          $27.00|
+<style type="text/css">
+.tgtable2  {border-collapse:collapse;border-spacing:0;}
+.tgtable2 td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tgtable2 th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tgtable2 .tgtable2-xdkn{font-size:16px;font-family:"Times New Roman", Times, serif !important;;text-align:right}
+.tgtable2 .tgtable2-gz8f{font-weight:bold;font-size:16px;font-family:"Times New Roman", Times, serif !important;}
+.tgtable2 .tgtable2-5iem{font-size:16px;font-family:"Times New Roman", Times, serif !important;}
+.tgtable2 .tgtable2-0k7u{font-weight:bold;font-size:16px;font-family:"Times New Roman", Times, serif !important;;text-align:left}
+.tgtable2 .tgtable2-lptz{font-size:16px;font-family:"Times New Roman", Times, serif !important;;vertical-align:top}
+.tgtable2 .tgtable2-ml68{font-size:16px;font-family:"Times New Roman", Times, serif !important;;text-align:right;vertical-align:top}
+</style>
+<table class="tgtable2">
+  <tr>
+    <th class="tgtable2-0k7u">Item</th>
+    <th class="tgtable2-gz8f">Price in USD</th>
+  </tr>
+  <tr>
+    <td class="tgtable2-5iem">OSHChip V1.0</td>
+    <td class="tgtable2-xdkn">$25.00</td>
+  </tr>
+  <tr>
+    <td class="tgtable2-lptz">OSHChip_CMSIS_DAP V1.0 (including cable and adapter)</td>
+    <td class="tgtable2-ml68">$35.00</td>
+  </tr>
+  <tr>
+    <td class="tgtable2-lptz">Shipping &amp; Handling USA</td>
+    <td class="tgtable2-ml68">$7.00</td>
+  </tr>
+  <tr>
+    <td class="tgtable2-lptz">Shipping &amp; Handling International</td>
+    <td class="tgtable2-ml68">$14.00 - $35.00</td>
+  </tr>
+</table>
 
-Shipping rates are fixed for orders up to $500. For larger orders, shipping
+
+
+USA Shipping &amp; Handling rates are fixed for orders up to $500. For larger orders, shipping
 will be charged at our cost, and will require your approval for your order
 to be processed.
+
+International Shipping &amp; Handling rates depends on country and shipping service selected
 
 Californian orders will have 8.75% sales tax added.
