@@ -5,7 +5,7 @@ excerpt: "Connecting CMSIS-DAP to OSHChip"
 tags: [OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics]
 comments: false
-modified: 2016-01-18
+modified: 2016-01-25
 image:
   feature: header.jpg
 ---
@@ -69,17 +69,25 @@ The required signals are on pins 1, 2, 3, and 4, which are in
 a 2&nbsp;by&nbsp;2 group at the red stripe end of the connector.
 This matches the 2&nbsp;by&nbsp;2 connector on the top of OSHChip.
 
+ARM documents both old and new programming/debugging connectors
+in this documnet [cortex_debug_connectors.pdf](http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf)&nbsp;&nbsp;.&nbsp;
+The OSHChip_CMSIS_DAP V1.0 Programmer/Debugger connector is shown
+on the top of the second page of that document, with the only
+signals implemented being pins 1 through 4.
+
 ##Programming voltages and Connector J1
 
-OSHChip V1.0 can operate from 1.8 V to 3.6V . Typically 3.3V is
-used, and is a requirement if the on-board LEDs are used. The
-OSHChip_CMSIS_DAP V1.0 Programmer/Debugger is powered by the
-USB cable, and has an internal regulator for 3.3V .
+OSHChip V1.0 can operate from 1.8 V to 3.6V . Typically 3.3V is used,
+and 3.3V to 3.6V is a requirement if the on-board LEDs are used.
+
+The OSHChip_CMSIS_DAP V1.0 Programmer/Debugger is powered by the USB
+cable, and has an internal regulator for 3.3V .
 
 ####If OSHChip is powered from 2.5V to 3.6V but not 3.3V
 
 * OSHChip can be left connected to the rest of the target system
-* J1 must not have the jumper installed
+* J1 must **not** have the jumper installed, because the target system
+  and the programmer power supplies are at different voltages
 * Both programming and debugging can be performed
 
 ####If OSHChip is powered at 3.3V
@@ -90,14 +98,18 @@ USB cable, and has an internal regulator for 3.3V .
 
 ####If OSHChip is powered from 1.8V to 2.4V
 
-* OSHChip must be unplugged from the target system
-* J1 must have the jumper installed
+* OSHChip must be unplugged from the target system **before**
+  connecting the programming cable for programming
+* J1 **must** have the jumper installed (this powers OSHChip when
+  it is not plugged into the target system)
 * Programming can be performed
 * Debugging can only be done if the program being debugged can operate
-without being connected to the rest of the system
-* After programming is finished, the programming cable can be disconnected
-and then OSHChip can be plugged back into the system. **Do not** plug
-it back into the system with the programming cable still atached
+  without OSHChip being connected to the rest of the target system
+* After programming is finished, the programming cable **must** be
+  disconnected first from OSHChip, and then OSHChip can be plugged
+  back into the target system. **Do not** plug it back into the
+  target system with the programming cable and programmer still
+  attached
 
 <center>
 <img src="/images/OSHChip_CMSIS_DAP_J1.jpg" width="400"><br>
