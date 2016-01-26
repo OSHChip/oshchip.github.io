@@ -5,7 +5,7 @@ excerpt: "Product Description"
 tags: [OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics]
 comments: false
-modified: 2016-01-14
+modified: 2016-01-26
 image:
   feature: header.jpg
 ---
@@ -85,7 +85,7 @@ In the *Other_Files* directory, you will find the following:
 
 ##Related Information
 
-* [Is OSHChip right for me](Is_OSHChip_right_for_me.html)
+* [Is OSHChip right for me](/docs/Is_OSHChip_right_for_me.html)
 * [Connecting OSHChip to the programmer/debugger](/docs/OSHChip_Connections.html)
 
 ##Resources

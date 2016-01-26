@@ -5,7 +5,7 @@ excerpt: "Product Description"
 tags: [SWD, Debug, OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics, Programming, Debugging]
 comments: false
-modified: 2016-01-07
+modified: 2016-01-26
 image:
   feature: header.jpg
 ---
@@ -72,7 +72,7 @@ tested extensively at 9600 Baud, but it should work at up to 115200 Baud
 ####Related Information
 
 * [Connecting OSHChip to the programmer/debugger](/docs/OSHChip_Connections.html)
-* [Connecting and using the serial data interface](OSHChip_CMSIS_DAP_V1.0_Serial_Data_Interface.html)
+* [Connecting and using the serial data interface](/docs/OSHChip_CMSIS_DAP_V1.0_Serial_Data_Interface.html)
 
 ####Open Source
 
