@@ -5,7 +5,7 @@ excerpt: "Chip Design Introduction"
 tags: [OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart, Chip Design]
 categories: [Electronics, IC Design]
 comments: false
-modified: 2016-01-02
+modified: 2016-01-26
 image:
   feature: header.jpg
 ---
@@ -67,7 +67,7 @@ designers, and best of all, submit your design for inclusion in the parts catalo
 where your chip will be assigned a unique chip part number that others can use in
 their designs.
 
-Let's get started: [Planning your Chip](Planning_your_Chip.html)
+Let's get started: [Planning your Chip](Sorry_not_yet_written.html)
 
 
 {% include chipdesign_index.md %}
