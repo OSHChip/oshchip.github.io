@@ -4,7 +4,7 @@ excerpt: "OSHChip home on the WWW"
 tags: [OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics]
 comments: false
-modified: 2016-01-30
+modified: 2015-12-29
 image:
   feature: header.jpg
 ---
