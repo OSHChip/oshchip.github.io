@@ -19,7 +19,6 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
-{% endif %}
 
 <!-- Google Search Box -->
 <script language="Javascript" type="text/javascript">
@@ -30,7 +29,7 @@
 	+ "%20site:" + "http://oshchip.org");
   }
 </script>
-
+{% endif %}
 {% if page.comments %}
   {% include _disqus_comments.html %}
 {% endif %}
