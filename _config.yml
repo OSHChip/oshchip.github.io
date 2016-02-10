@@ -7,7 +7,7 @@ url:              http://oshchip.org
 
 # Jekyll configuration
 
-permalink:   /:title/
+permalink:   /:title
 markdown:    kramdown
 highlighter: pygments
 sass:
