@@ -12,7 +12,7 @@ image:
 
 ![OSHChip](/images/OSHChip_Black_on_breadboard.jpg "OSHChip")
  
-##Features
+## Features
 
 OSHChip V1.0 is a minature processor board that packs an amazing
 amount of functionality into the space of a traditional 16 pin DIP
