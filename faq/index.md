@@ -25,4 +25,3 @@ image:
     price as OSHChip with pins. Until then, you can buy the  
     OSHChip with pins, and they are easy to unsolder from  
     the board.
-    

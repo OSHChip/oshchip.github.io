@@ -6,6 +6,8 @@ modified:         2016-02-11
 #url:              http://localhost:4000
 url:              http://oshchip.org
 
+encoding: UTF-8
+
 # Jekyll configuration
 
 ###  removed trailing slash, links must include .html , and will display with .html
