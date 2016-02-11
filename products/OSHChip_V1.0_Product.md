@@ -5,7 +5,7 @@ excerpt: "Product Description"
 tags: [OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics]
 comments: false
-modified: 2016-02-09
+modified: 2016-02-11
 image:
   feature: header.jpg
 ---
@@ -57,14 +57,14 @@ OSHChip V1.0 includes the following functional blocks:
 * Random Number Generator.
 * 3 On-board LEDs (near top connector), Red Green and Blue.
 
-##Open Source
+## Open Source
 
 OSHChip_V1.0 is an Open Source Hardware design. It's right there
 in the name. You can find all the schematics, bill of materials,
 printed circuit board design files and the resultant Gerber files
 here: [https://github.com/OSHChip/OSHChip_V1.0_Docs](https://github.com/OSHChip/OSHChip_V1.0_Docs)
 
-####Navigating the GitHub repository for OSHChip V1.0
+#### Navigating the GitHub repository for OSHChip V1.0
 
 The repository contains the design files for OSHChip V1.0
 
@@ -83,12 +83,12 @@ In the *Other_Files* directory, you will find the following:
 * OSHChip_V1.0___Bill_of_Materials.xls
 * OSHChip_V1.0___Bill_of_Materials.PDF
 
-##Related Information
+## Related Information
 
 * [Is OSHChip right for me](/docs/Is_OSHChip_right_for_me.html)
 * [Connecting OSHChip to the programmer/debugger](/docs/OSHChip_Connections.html)
 
-##Resources
+## Resources
 
 * Valid links
   * [Nordic Semiconductors Documentation library](http://infocenter.nordicsemi.com/index.jsp)
@@ -150,7 +150,7 @@ OSHChip_V1.0 uses the nRF51822 described by:
 |[nRF51 Series Reference Manual](https://www.nordicsemi.com/eng/nordic/download_resource/20337/12/45450728) | version 3.0 |
 
 
-##Gallery
+## Gallery
 <html>
 <center><img src="/images/First_OSHChip_V1.0_Array_Width_600.jpg" alt="OSHChip" width="600"></center>
 <center><b>OSHChip_V1.0 is manufactured in a panelized form</b></center>

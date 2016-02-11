@@ -2,15 +2,16 @@
 
 title:            oshchip.org
 locale:           en_US
-#url:              http://localhost:4000
-url:              http://oshchip.org
+modified:         2016-02-11
+url:              http://localhost:4000
+#url:              http://oshchip.org
 
 # Jekyll configuration
 
-###  removed trailing slash
+###  removed trailing slash, links must include .html , and will display with .html
 permalink:   /:title
 markdown:    kramdown
-####     highlighter: pygments
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed

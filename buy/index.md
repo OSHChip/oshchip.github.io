@@ -2,7 +2,7 @@
 layout: page
 title: How to buy OSHChips
 tags: [Buy, OSHChip]
-modified: 2016-01-25
+modified: 2016-02-11
 comments: false
 image:
   feature: header.jpg
@@ -11,7 +11,7 @@ image:
 OSHChip is planning to have an online store front but it has not been setup yet.
 Until then, sales enquiries can be sent to [philip@oshchip.org](mailto:philip@oshchip.org)
 
-###Typical Orders
+### Typical Orders
 
 Typically you will buy one or more [OSHChips V1.0](/products/OSHChip_V1.0_Product.html)
 and one [OSHChip_CMSIS_DAP&nbsp;V1.0](/products/OSHChip_CMSIS_DAP_V1.0_Product.html)
@@ -56,7 +56,7 @@ cable is not supplied by OSHChip.
 <b>SWD 2x5 to 2x2 Adapter</b>
 </center>
 
-###Pricing
+### Pricing
 
 <style type="text/css">
 .tgtable2  {border-collapse:collapse;border-spacing:0;}
