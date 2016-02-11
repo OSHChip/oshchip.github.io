@@ -5,17 +5,17 @@ excerpt: "Getting started with the OSHChip"
 tags: [OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics]
 comments: false
-modified: 2016-01-31
+modified: 2016-02-11
 image:
   feature: header.jpg
 ---
 
 
-##Choosing an Environment for software development
+## Choosing an Environment for software development
 
 The OSHChip processor 16 pin Dual Inline Package (DIP) contains a Nordic
 Semiconductors nRF51822 System On Chip (SoC). There are several versions
-of this device, and OSHChip uses the most advanced one, that includes
+of this device, and OSHChip uses **the most advanced one**, that includes
 256 KBytes of Flash memory and 32 KBytes of Static Random Access Memory (SRAM).
 
 Programming support initially is focussed on C and C++, with other languages
@@ -70,16 +70,6 @@ each with various pros and cons.
 </table>
 
 
-
-
-
-
-
-
-
-
-https://www.nordicsemi.com/eng/nordic/download_resource/18799/4/95790481
-
-https://www.nordicsemi.com/eng/nordic/download_resource/18974/4/42687144
-
-https://www.nordicsemi.com/eng/nordic/download_resource/18799/7/99017986
+* [nRF51822_Development_Kit_User_Guide_v1.3.pdf](https://www.nordicsemi.com/eng/nordic/download_resource/18799/4/95790481)
+* [nRF51822_Evaluation_Kit User_Guide v1.2.pdf](https://www.nordicsemi.com/eng/nordic/download_resource/18974/4/42687144)
+* [nRF51822_Development_Kit_User_Guide_v1.4.pdf](https://www.nordicsemi.com/eng/nordic/download_resource/18799/7/99017986)

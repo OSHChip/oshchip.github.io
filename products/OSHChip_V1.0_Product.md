@@ -95,6 +95,8 @@ In the *Other_Files* directory, you will find the following:
   * [Nordic Semiconductors Development Libraries (SDK)](http://developer.nordicsemi.com)
   * [Nordic Semiconductors Developer Zone (User Forum)](https://devzone.nordicsemi.com/questions/)
   * [Setting up development with GCC on Mac OS X](https://devzone.nordicsemi.com/blogs/22/getting-started-with-nrf51-development-on-mac-os-x/)
+* These links are to pages currently being developed
+  * [Getting started with OSHChip](/docs/Getting_started_with_OSHChip.html)
 * These links are place holders
   * [Setting up development with Keil](Sorry_not_yet_written.html)
   * [Setting up development with GCC and Ubuntu](Sorry_not_yet_written.html)

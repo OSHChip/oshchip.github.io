@@ -5,13 +5,13 @@ excerpt: "Chip Design Introduction"
 tags: [OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart, Chip Design]
 categories: [Electronics, IC Design]
 comments: false
-modified: 2016-01-26
+modified: 2016-02-11
 image:
   feature: header.jpg
 ---
 
  
-##An Introduction to designing your own chip
+## An Introduction to designing your own chip
 
 Designing Integrated Circuits (chips) typically is reserved for large companies with engineering
 teams that can range from just a few people to over 100. The process includes creating the masks

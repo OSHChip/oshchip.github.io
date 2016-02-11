@@ -5,7 +5,7 @@ excerpt: "Product Description"
 tags: [SWD, Debug, OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics, Programming, Debugging]
 comments: false
-modified: 2016-01-17
+modified: 2016-02-11
 image:
   feature: header.jpg
 ---

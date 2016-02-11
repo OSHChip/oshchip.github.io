@@ -5,7 +5,7 @@ excerpt: "Connecting CMSIS-DAP to OSHChip"
 tags: [OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics]
 comments: false
-modified: 2016-01-26
+modified: 2016-02-11
 image:
   feature: header.jpg
 ---
@@ -75,11 +75,11 @@ The OSHChip_CMSIS_DAP V1.0 Programmer/Debugger connector is shown
 on the top of the second page of that document, with the only
 signals implemented being pins 1 through 4.
 
-##Serial Connector J5
+## Serial Connector J5
 
 See [Connecting and using the serial data interface](OSHChip_CMSIS_DAP_V1.0_Serial_Data_Interface.html)
 
-##Programming voltages and Connector J1
+## Programming voltages and Connector J1
 
 OSHChip V1.0 can operate from 1.8 V to 3.6V . Typically 3.3V is used,
 and 3.3V to 3.6V is a requirement if the on-board LEDs are used.
@@ -87,20 +87,20 @@ and 3.3V to 3.6V is a requirement if the on-board LEDs are used.
 The OSHChip_CMSIS_DAP V1.0 Programmer/Debugger is powered by the USB
 cable, and has an internal regulator for 3.3V .
 
-####If OSHChip is powered from 2.5V to 3.6V but not 3.3V
+#### If OSHChip is powered from 2.5V to 3.6V but not 3.3V
 
 * OSHChip can be left connected to the rest of the target system
 * J1 must **not** have the jumper installed, because the target system
   and the programmer power supplies are at different voltages
 * Both programming and debugging can be performed
 
-####If OSHChip is powered at 3.3V
+#### If OSHChip is powered at 3.3V
 
 * OSHChip can be left connected to the rest of the target system
 * J1 may have the jumper installed, but it is not necessary
 * Both programming and debugging can be performed
 
-####If OSHChip is powered from 1.8V to 2.4V
+#### If OSHChip is powered from 1.8V to 2.4V
 
 * OSHChip must be unplugged from the target system **before**
   connecting the programming cable for programming
@@ -119,7 +119,7 @@ cable, and has an internal regulator for 3.3V .
 <img src="/images/OSHChip_CMSIS_DAP_J1.jpg" width="400"><br>
 </center>
 
-##SWD Programmer/Debuggers from other suppliers
+## SWD Programmer/Debuggers from other suppliers
 
 Example SWD programmers include:
 
@@ -149,9 +149,9 @@ that mates with the connector on the top of OSHChip.
 <br>
 <br>
 
-##Programming/Debugging cable orientation
+## Programming/Debugging cable orientation
 
-###With the adapter
+### With the adapter
 
 <center>
 <img src="/images/Cable_Adapter_and_OSHChip.jpg" width="400"><br>
@@ -164,7 +164,7 @@ that mates with the connector on the top of OSHChip.
 <b>OSHChip, Adapter, Cable, and OSHChip_CMSIS_Dap</b>
 </center>
 
-###Without the adapter
+### Without the adapter
 
 OSHChip can be programmed with SWD programmers from other suppliers,
 listed above. Provided they have a programming cable with the

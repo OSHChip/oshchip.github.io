@@ -5,7 +5,7 @@ excerpt: "Selection Features"
 tags: [OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics]
 comments: false
-modified: 2016-01-10
+modified: 2016-02-11
 image:
   feature: header.jpg
 ---
@@ -14,7 +14,7 @@ There are so many processor boards and modules available, trying to decide
 what is the right one for your project can be a real challenge. This page
 will try and help you in your consideration of OSHChip.
 
-####History of OSHChip
+#### History of OSHChip
 
 TLDR; Build a product that is like a 16 pin DIP with amazing capabilities.
 
@@ -55,12 +55,12 @@ to the 16 pin DIP form factor, and the custom pins that no other
 processor board has (well the closest is the Basic Stamp products from
 Parallax, but their pins are not as pretty as mine).
 
-###Pros and Cons of OSHChip
+### Pros and Cons of OSHChip
  
 There are good and bad points about any processor board product, here
 are what I consider the main Pros and Cons for OSHChip.
 
-####Pros
+#### Pros
 
 - Very small size
 - Very light weight
@@ -85,7 +85,7 @@ are what I consider the main Pros and Cons for OSHChip.
 - All software from OSHChip is Open Source, most of the software from Nordic is available in source form, except for the radio protocol stacks
 - Looks cute
  
-####Cons
+#### Cons
 
 - Only 14 I/O pins
 - I/O is not 5V compliant
