@@ -8,7 +8,7 @@ url:              http://oshchip.org
 # Jekyll configuration
 
 ###  removed trailing slash
-permalink:   /:title/
+permalink:   /:title
 markdown:    kramdown
 ####     highlighter: pygments
 sass:
