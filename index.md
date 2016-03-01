@@ -22,7 +22,7 @@ OSHChip:&emsp;One product, Two views
 * Broad range of built-in Peripheral functions
 * 256 KBytes of Flash memory for program and data
 *  32 KBytes of SRAM
-* Minature packaging, compatible with bread board construction
+* Miniature packaging, compatible with bread board construction
 * Support for in-system debugging including breakpoints
 
 The most striking thing you see is that it is the size of a 16 pin
