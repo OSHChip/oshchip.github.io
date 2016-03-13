@@ -113,7 +113,7 @@ int main()
 }
 ```
 
----- detailed explanation still to be written ----
+--- detailed explanation still to be written ---
 
 
 #### Pin Select Registers
@@ -127,7 +127,7 @@ the peripheral and physical pin.
 
 #### Let's look at some examples.
 
----- more stuff goes here
+--- more stuff goes here
 
 
 
