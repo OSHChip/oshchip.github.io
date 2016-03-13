@@ -5,7 +5,7 @@ excerpt: "OSHChip Pin Assignments"
 tags: [OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart, Pin Assignments]
 categories: [Electronics]
 comments: false
-modified: 2016-03-12
+modified: 2016-03-13
 image:
   feature: header.jpg
 ---
@@ -94,6 +94,7 @@ constraints on pin assignments:
 This is documented in chapter 14 of the [nRF51 Series Reference Manual](https://www.nordicsemi.com/eng/nordic/download_resource/20337/12/45450728)  
 A header file that has all the default pin names is here: [OSHChip_Pin_Names.h](https://github.com/OSHChip/OSHChip_Related_Files/tree/master/Getting_Started_Files)
 
+```c
     #include <stdint.h>
     #include "nrf_delay.h"
     #include "nrf_gpio.h"
@@ -110,7 +111,7 @@ A header file that has all the default pin names is here: [OSHChip_Pin_Names.h](
             nrf_delay_ms(500);
         }
     }
-
+```
 
 ---- detailed explanation still to be written ----
 
