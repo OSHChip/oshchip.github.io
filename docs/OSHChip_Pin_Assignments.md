@@ -101,7 +101,7 @@ On my Jekyll inside a VM, the ```c stuff didnt work  --- maybe rouge isn't worki
 On my Jekyll inside a VM, indenting with 4 spaces does go into 'code' mode, but highlighting did not occur,
    and the line spacing sucks.
 On the GitHub repo, ```c  does work, and looking at it in the repo, it highlights and looks great
-   but rendered on my site, highlighting doesn't work, and line spacing sucks
+   but rendered on my site, highlighting only partially works, and line spacing sucks
 So I looked at the source for the ```c rendered stuff, viewed in the repo, and cut and pasted it below,
    and commented out the stuff that was used to create it.
 
@@ -126,26 +126,6 @@ int main()
 }
 ```
 --->
-
-```c
-#include <stdint.h>
-#include "nrf_delay.h"
-#include "nrf_gpio.h"
-#include "OSHChip_Pin_Names.h"
-
-int main()
-{
-    nrf_gpio_cfg_output(LED_RED);
-
-    nrf_gpio_pin_set(LED_RED);
-
-    while(1){
-        nrf_gpio_pin_toggle(LED_RED);
-        nrf_delay_ms(500);
-    }
-}
-```
-
 
 <div class="highlight highlight-source-c"><pre>#<span class="pl-k">include</span> <span class="pl-s"><span class="pl-pds">&lt;</span>stdint.h<span class="pl-pds">&gt;</span></span>
 #<span class="pl-k">include</span> <span class="pl-s"><span class="pl-pds">"</span>nrf_delay.h<span class="pl-pds">"</span></span>
