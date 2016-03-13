@@ -46,6 +46,7 @@ OSHChip V1.0 includes the following functional blocks:
   the ADC) can use any I/O pin
 * UART
 * 10-bit ADC
+* Low Power Comparator
 * Counter/Timers
 * SPI
 * I2C
