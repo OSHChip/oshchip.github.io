@@ -113,6 +113,25 @@ int main()
 }
 ```
 
+<div class="highlight highlight-source-c"><pre>#<span class="pl-k">include</span> <span class="pl-s"><span class="pl-pds">&lt;</span>stdint.h<span class="pl-pds">&gt;</span></span>
+#<span class="pl-k">include</span> <span class="pl-s"><span class="pl-pds">"</span>nrf_delay.h<span class="pl-pds">"</span></span>
+#<span class="pl-k">include</span> <span class="pl-s"><span class="pl-pds">"</span>nrf_gpio.h<span class="pl-pds">"</span></span>
+#<span class="pl-k">include</span> <span class="pl-s"><span class="pl-pds">"</span>OSHChip_Pin_Names.h<span class="pl-pds">"</span></span>
+
+<span class="pl-k">int</span> <span class="pl-en">main</span>()
+{
+    <span class="pl-c1">nrf_gpio_cfg_output</span>(LED_RED);
+
+    <span class="pl-c1">nrf_gpio_pin_set</span>(LED_RED);
+
+    <span class="pl-k">while</span>(<span class="pl-c1">1</span>){
+        <span class="pl-c1">nrf_gpio_pin_toggle</span>(LED_RED);
+        <span class="pl-c1">nrf_delay_ms</span>(<span class="pl-c1">500</span>);
+    }
+}</pre></div>
+
+
+
 --- detailed explanation still to be written ---
 
 
