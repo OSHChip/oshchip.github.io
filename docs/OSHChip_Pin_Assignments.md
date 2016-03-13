@@ -95,22 +95,22 @@ This is documented in chapter 14 of the [nRF51 Series Reference Manual](https://
 A header file that has all the default pin names is here: [OSHChip_Pin_Names.h](https://github.com/OSHChip/OSHChip_Related_Files/tree/master/Getting_Started_Files)
 
 ```c
-    #include <stdint.h>
-    #include "nrf_delay.h"
-    #include "nrf_gpio.h"
-    #include "OSHChip_Pin_Names.h"
+#include <stdint.h>
+#include "nrf_delay.h"
+#include "nrf_gpio.h"
+#include "OSHChip_Pin_Names.h"
 
-    int main()
-    {
-        nrf_gpio_cfg_output(LED_RED);
+int main()
+{
+    nrf_gpio_cfg_output(LED_RED);
 
-        nrf_gpio_pin_set(LED_RED);
+    nrf_gpio_pin_set(LED_RED);
 
-        while(1){
-            nrf_gpio_pin_toggle(LED_RED);
-            nrf_delay_ms(500);
-        }
+    while(1){
+        nrf_gpio_pin_toggle(LED_RED);
+        nrf_delay_ms(500);
     }
+}
 ```
 
 ---- detailed explanation still to be written ----
