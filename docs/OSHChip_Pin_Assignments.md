@@ -94,6 +94,8 @@ constraints on pin assignments:
 This is documented in chapter 14 of the [nRF51 Series Reference Manual](https://www.nordicsemi.com/eng/nordic/download_resource/20337/12/45450728)  
 A header file that has all the default pin names is here: [OSHChip_Pin_Names.h](https://github.com/OSHChip/OSHChip_Related_Files/tree/master/Getting_Started_Files)
 
+
+<!---  
 ```c
 #include <stdint.h>
 #include "nrf_delay.h"
@@ -112,6 +114,8 @@ int main()
     }
 }
 ```
+--->
+
 
 <div class="highlight highlight-source-c"><pre>#<span class="pl-k">include</span> <span class="pl-s"><span class="pl-pds">&lt;</span>stdint.h<span class="pl-pds">&gt;</span></span>
 #<span class="pl-k">include</span> <span class="pl-s"><span class="pl-pds">"</span>nrf_delay.h<span class="pl-pds">"</span></span>
