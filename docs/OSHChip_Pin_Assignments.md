@@ -146,6 +146,29 @@ int main()
 
 
 
+--- just playing with formatting to see what I like
+
+``` c
+#include <stdint.h>
+#include "nrf_delay.h"
+#include "nrf_gpio.h"
+#include "OSHChip_Pin_Names.h"
+
+int main()
+{
+    nrf_gpio_cfg_output(LED_RED);
+
+    nrf_gpio_pin_set(LED_RED);
+
+    while(1){
+        nrf_gpio_pin_toggle(LED_RED);
+        nrf_delay_ms(500);
+    }
+}
+```
+
+
+
 --- detailed explanation still to be written ---
 
 
