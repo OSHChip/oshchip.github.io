@@ -8,6 +8,8 @@ comments: false
 modified: 2016-03-13
 image:
   feature: header.jpg
+markdown:    kramdown
+highlighter: rouge
 ---
 
 For peripherals that need to have an I/O pin assigned, each pin of
