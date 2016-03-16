@@ -5,9 +5,15 @@ excerpt: "OSHChip Pin Assignments"
 tags: [OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart, Pin Assignments]
 categories: [Electronics]
 comments: false
+<<<<<<< HEAD
 modified: 2016-03-16
+=======
+modified: 2016-03-13
+>>>>>>> origin/master
 image:
   feature: header.jpg
+markdown:    kramdown
+highlighter: rouge
 ---
 
 For peripherals that need to have an I/O pin assigned, each pin of
@@ -122,6 +128,17 @@ int main()
     while(1){
         nrf_gpio_pin_toggle(LED_RED);
         nrf_delay_ms(500);
+<<<<<<< HEAD
+    }
+}
+```
+--->
+
+<div class="highlight highlight-source-c"><pre>#<span class="pl-k">include</span> <span class="pl-s"><span class="pl-pds">&lt;</span>stdint.h<span class="pl-pds">&gt;</span></span>
+#<span class="pl-k">include</span> <span class="pl-s"><span class="pl-pds">"</span>nrf_delay.h<span class="pl-pds">"</span></span>
+#<span class="pl-k">include</span> <span class="pl-s"><span class="pl-pds">"</span>nrf_gpio.h<span class="pl-pds">"</span></span>
+#<span class="pl-k">include</span> <span class="pl-s"><span class="pl-pds">"</span>OSHChip_Pin_Names.h<span class="pl-pds">"</span></span>
+=======
     }
 }
 ```
@@ -143,9 +160,25 @@ int main()
         <span class="pl-c1">nrf_delay_ms</span>(<span class="pl-c1">500</span>);
     }
 }</pre></div>
+>>>>>>> origin/master
+
+<span class="pl-k">int</span> <span class="pl-en">main</span>()
+{
+    <span class="pl-c1">nrf_gpio_cfg_output</span>(LED_RED);
+
+<<<<<<< HEAD
+    <span class="pl-c1">nrf_gpio_pin_set</span>(LED_RED);
+
+    <span class="pl-k">while</span>(<span class="pl-c1">1</span>){
+        <span class="pl-c1">nrf_gpio_pin_toggle</span>(LED_RED);
+        <span class="pl-c1">nrf_delay_ms</span>(<span class="pl-c1">500</span>);
+    }
+}</pre></div>
 
 
 
+=======
+>>>>>>> origin/master
 --- detailed explanation still to be written ---
 
 
@@ -161,7 +194,10 @@ the peripheral and physical pin.
 #### Let's look at some examples.
 
 --- more stuff goes here
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 
 
 

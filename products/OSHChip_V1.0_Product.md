@@ -5,7 +5,7 @@ excerpt: "Product Description"
 tags: [OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics]
 comments: false
-modified: 2016-02-11
+modified: 2016-03-13
 image:
   feature: header.jpg
 ---
