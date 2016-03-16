@@ -5,7 +5,7 @@ excerpt: "Connecting CMSIS-DAP to OSHChip"
 tags: [OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics]
 comments: false
-modified: 2016-02-11
+modified: 2016-03-16
 image:
   feature: header.jpg
 ---
@@ -73,7 +73,9 @@ ARM documents both old and new programming/debugging connectors
 in this documnet [cortex_debug_connectors.pdf](http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf)&nbsp;&nbsp;.&nbsp;
 The OSHChip_CMSIS_DAP V1.0 Programmer/Debugger connector is shown
 on the top of the second page of that document, with the only
-signals implemented being pins 1 through 4.
+signals implemented being pins 1 through 4. Here is the diagram from the ARM document:
+
+<img src="/images/cortex_debug_header.png" width="200"><br>
 
 ## Serial Connector J5
 
