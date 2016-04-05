@@ -5,7 +5,7 @@ excerpt: "Product Description"
 tags: [OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics]
 comments: false
-modified: 2016-03-16
+modified: 2016-04-05
 image:
   feature: header.jpg
 ---
@@ -30,7 +30,7 @@ OSHChip V1.0 includes the following functional blocks:
 * ARM Cortex-M0 32 bit micro processor running at 16 MHz
 * 256KB Flash Memory
 * 32KB SRAM
-* 2.4 GHz Radio supports 4 protocols:
+* 2.4 GHz Radio supports 3 protocols:
   * Bluetooth Low Energy (BLE) / Bluetooth Smart
     * Supports communications from OSHChip  
       to smart phones that support BLE
@@ -38,7 +38,6 @@ OSHChip V1.0 includes the following functional blocks:
     * Supports Chip to Chip communications.
   * ESB (Enhanced Shock Burst)
     * Supports Chip to Chip communications.
-  * ANT (optional, by request)
 * Built-in antenna, range is 10 to 20 feet, depending  
   on environment (metal, desks, chairs, ...)
 * Runs from 1.8V to 3.6V .  Multiple low power modes
@@ -58,31 +57,11 @@ OSHChip V1.0 includes the following functional blocks:
 * Random Number Generator.
 * 3 On-board LEDs (near top connector), Red Green and Blue.
 
-## Open Source
+## Buying OSHChip
 
-OSHChip_V1.0 is an Open Source Hardware design. It's right there
-in the name. You can find all the schematics, bill of materials,
-printed circuit board design files and the resultant Gerber files
-here: [https://github.com/OSHChip/OSHChip_V1.0_Docs](https://github.com/OSHChip/OSHChip_V1.0_Docs)
-
-#### Navigating the GitHub repository for OSHChip V1.0
-
-The repository contains the design files for OSHChip V1.0
-
-The PCB design files are in the directory *Design_Files* and were
-created with Altium Designer Release 10
-
-Since you may not have access to Altium Designer, I have also
-included all the Gerber files and the Excelon drill file in the
-directory *Gerbers_and_Drill_Files*.
-
-In the *Other_Files* directory, you will find the following:
-
-* OSHChip_V1.0___Schematic.PDF
-* OSHChip_V1.0___PCB_Prints.PDF
-* OSHChip_V1.0___Assembly_Drawings.PDF
-* OSHChip_V1.0___Bill_of_Materials.xls
-* OSHChip_V1.0___Bill_of_Materials.PDF
+* OSHChip products are sold in our store that is hosted on <a href="https://www.tindie.com/products/OSHChip/oshchip-v10/" target="_blank">Tindie</a>
+* The price of OSHChip_V1.0 is $25.00
+* Shipping is fixed price regardless of how many you order.
 
 ## Related Information
 
@@ -91,11 +70,15 @@ In the *Other_Files* directory, you will find the following:
 
 ## Resources
 
-* Valid links
-  * [Nordic Semiconductors Documentation library](http://infocenter.nordicsemi.com/index.jsp)
-  * [Nordic Semiconductors Development Libraries (SDK)](http://developer.nordicsemi.com)
-  * [Nordic Semiconductors Developer Zone (User Forum)](https://devzone.nordicsemi.com/questions/)
-  * [Setting up development with GCC on Mac OS X](https://devzone.nordicsemi.com/blogs/22/getting-started-with-nrf51-development-on-mac-os-x/)
+* Very quick start, a  
+  [Blinky program using the online mbed environment](/docs/mbed_Blinky.html)
+* Getting started with [GCC and Yotta](https://github.com/OSHChip/target-OSHChip-gcc)
+* Nordic Semiconductor's [Getting Started Guide](http://infocenter.nordicsemi.com/topic/com.nordic.infocenter.sdk5.v11.0.0/nrf51_getting_started.html?cp=4_0_0_1)  
+  (assumes Nordic's development board, and J-Link programmer)
+* [Nordic Semiconductor's Documentation library](http://infocenter.nordicsemi.com/index.jsp)
+* [Nordic Semiconductor's Development Libraries (SDK)](http://developer.nordicsemi.com)
+* [Nordic Semiconductor's Developer Zone (User Forum)](https://devzone.nordicsemi.com/questions/)
+* [Setting up development with GCC on Mac OS X](https://devzone.nordicsemi.com/blogs/22/getting-started-with-nrf51-development-on-mac-os-x/)
 * These links are to pages currently being developed
   * [Getting started with OSHChip](/docs/Getting_started_with_OSHChip.html)
 * These links are place holders
@@ -140,7 +123,7 @@ split of documentation, there are several variant of the nRF51822,
 which differ in the amount of Flash memory and SRAM. OSHChip_V1.0 uses
 the most advanced variant of the nRF51822, which includes 256 KBytes
 of Flash and 32 KBytes of SRAM. The specific variant is nRF51822-
-CFACA0.
+CFAC-A0.
 
 For each document, the most recent version is listed, and when
 you select it, the page that is presented gives a link for the
@@ -152,6 +135,31 @@ OSHChip_V1.0 uses the nRF51822 described by:
 |[nRF51822 Product Specification](https://www.nordicsemi.com/eng/nordic/download_resource/20339/13/41227812) | version 3.1 |
 |[nRF51 Series Reference Manual](https://www.nordicsemi.com/eng/nordic/download_resource/20337/12/45450728) | version 3.0 |
 
+## Open Source
+
+OSHChip_V1.0 is an Open Source Hardware design. It's right there
+in the name. You can find all the schematics, bill of materials,
+printed circuit board design files and the resultant Gerber files
+here: [https://github.com/OSHChip/OSHChip_V1.0_Docs](https://github.com/OSHChip/OSHChip_V1.0_Docs)
+
+#### Navigating the GitHub repository for OSHChip V1.0
+
+The repository contains the design files for OSHChip V1.0
+
+The PCB design files are in the directory *Design_Files* and were
+created with Altium Designer Release 10
+
+Since you may not have access to Altium Designer, I have also
+included all the Gerber files and the Excelon drill file in the
+directory *Gerbers_and_Drill_Files*.
+
+In the *Other_Files* directory, you will find the following:
+
+* OSHChip_V1.0___Schematic.PDF
+* OSHChip_V1.0___PCB_Prints.PDF
+* OSHChip_V1.0___Assembly_Drawings.PDF
+* OSHChip_V1.0___Bill_of_Materials.xls
+* OSHChip_V1.0___Bill_of_Materials.PDF
 
 ## Gallery
 <html>

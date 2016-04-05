@@ -5,7 +5,7 @@ excerpt: "Product Description"
 tags: [SWD, Debug, OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics, Programming, Debugging]
 comments: false
-modified: 2016-02-11
+modified: 2016-04-05
 image:
   feature: header.jpg
 ---
@@ -13,7 +13,7 @@ image:
 ![OSHChip](/images/OSHChip_CMSIS_DAP_V1.0.jpg "OSHChip_CMSIS_DAP V1.0")
 
 
-#### Programming
+## Programming
 
 [OSHChip](OSHChip_V1.0_Product.html) contains 256 K Bytes of
 on&#8209;chip Flash memory which is used for your application program,
@@ -24,7 +24,7 @@ your next step it to program the on&#8209;chip Flash memory with the
 compiled and linked image. This is usually a .HEX file.  
 OSHChip_CMSIS_DAP V1.0 is the tool for the job.
 
-#### Debugging
+## Debugging
 
 With many alternative processor boards, in particular the various
 Arduino and mbed devices, that would be the end of the story: Download
@@ -41,11 +41,13 @@ matches a specific value. Once you have used this type of debugging
 functionality, you won't want to go back to just flashing a LED or
 using printf().
 
-#### Programming and Debugging cable and adapter
+## Programming and Debugging cable and adapter
 
 {% include cable_and_adapter.md %}
 
-#### Services
+A cable and an adapter are shipped with each OSHChip_CMSIS_DAP_V1.0
+
+## Services
 
 OSHChip_CMSIS_DAP_V1.0 connects to a host computer over a USB 2.0 interface
 and provides 3 services:
@@ -69,19 +71,25 @@ connected to anywhere in your system that has async serial I/O, so no
 specific pins on OSHChip_V1.0 are required. This interface has been
 tested extensively at 9600 Baud, but it should work at up to 115200 Baud
 
-#### Related Information
+## Buying OSHChip_CMSIS_DAP_V1.0
+
+* OSHChip products are sold in our store that is hosted on <a href="https://www.tindie.com/products/OSHChip/oshchip-cmsis-dap-v10/" target="_blank">Tindie</a>
+* The price of OSHChip_CMSIS_DAP_V1.0 is $35.00 and includes the programming cable and the adapter for OSHChip_V1.0
+* Shipping is fixed price regardless of how many you order.
+
+## Related Information
 
 * [Connecting OSHChip to the programmer/debugger](/docs/OSHChip_Connections.html)
 * [Connecting and using the serial data interface](/docs/OSHChip_CMSIS_DAP_V1.0_Serial_Data_Interface.html)
 
-#### Open Source
+## Open Source
 
 OSHChip_CMSIS_DAP_V1.0 is an open source product.  It's right there
 in the name. You can find all the schematics, bill of materials,
 printed circuit board design files and the resultant Gerber files
 here: [https://github.com/OSHChip/OSHChip_CMSIS_DAP_V1.0_Docs](https://github.com/OSHChip/OSHChip_CMSIS_DAP_V1.0_Docs)
 
-#### Navigating the GitHub repository for OSHChip_CMSIS_DAP V1.0
+## Navigating the GitHub repository for OSHChip_CMSIS_DAP V1.0
 
 The repository contains the design files for OSHChip_CMSIS_DAP V1.0
 
@@ -101,7 +109,7 @@ In the *Other_Files* directory, you will find the following:
 * OSHChip_CMSIS-DAP_V1.0___Bill_of_Materials.PDF
 
 
-#### OSHChip_CMSIS_DAP_V1.0 design Parent
+## OSHChip_CMSIS_DAP_V1.0 design Parent
 
 The bulk of this product is derived from the mbed HDK and SDK.
 
@@ -122,7 +130,7 @@ jumper is installed on this connector, the serial link is looped back,
 allowing easy testing of the setup of terminal programs on the host
 computer.
 
-#### The Hardware parent
+## The Hardware parent
 
 This design is derived from mbed HDK (Hardware Development Kit)
 
@@ -134,7 +142,7 @@ You can find all the schematics, bill of materials,
 printed circuit board design files and the resultant Gerber files
 here: [https://github.com/OSHChip/OSHChip_CMSIS_DAP_V1.0_Docs](https://github.com/OSHChip/OSHChip_CMSIS_DAP_V1.0_Docs)
 
-#### The Firmware parent
+## The Firmware parent
 
 The Firmware is described here <a href="https://developer.mbed.org/handbook/cmsis-dap-interface-firmware" target="_blank">mbed HDK Firmware</a>
 
@@ -152,7 +160,7 @@ It is here <a href="https://github.com/xiongyihui/CMSIS-DAP" target="_blank">Fir
 For the firmware, only very minor cosmetic changes were made
 to acknowledge its origin.
 
-#### License: Apache 2.0
+## License: Apache 2.0
 
 The License for the mbed files is Apache 2.0 and can be found in
 the repositories linked above.

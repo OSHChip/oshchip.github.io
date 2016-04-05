@@ -2,13 +2,13 @@
 layout: page
 title: Documentation
 tags: [docs, oshchip]
-modified: 2016-03-25
+modified: 2016-04-05
 comments: false
 image:
   feature: header.jpg
 ---
 
-## OSHChip documentation (Mostly place holders for now)
+## OSHChip documentation
 
 * Valid links
   * <a href="OSHChip_V1.0___Schematic.PDF" target="_blank">Schematic for OSHChip V1.0</a>
