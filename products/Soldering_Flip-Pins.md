@@ -14,7 +14,8 @@ image:
 <html>
   <table border="1" cellpadding="5">
     <tr>
-      <td style="width:50%; vertical-align:top;">Parts to be assembled. For clarity, all pictures are shown without other components. Typically you would mount all other components first, before soldering in Flip-Pins.<br><br><i>Photo Credit for all picture: Windel Oskay<i></td>
+      <td style="width:50%; vertical-align:top;">Parts to be assembled. For clarity, all pictures are shown without
+                  other components. Typically you would mount all other components first, before soldering in Flip-Pins.<br><br><i>Photo Credit for all picture: Windel Oskay</i></td>
       <td style="width:50%;"><A HREF="/images/Flip-Pins_Assembly_Parts_to_be_assembled_w1200.jpg" target="_blank"><img src="/images/Flip-Pins_Assembly_Parts_to_be_assembled_w400.jpg"></A></td>
     </tr>
     <tr>
