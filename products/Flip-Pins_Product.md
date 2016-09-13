@@ -5,7 +5,7 @@ excerpt: "Flip-Pins Description"
 tags: [Flip-Pins, OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics]
 comments: false
-modified: 2016-09-09
+modified: 2016-09-12
 image:
   feature: header.jpg
 ---
@@ -19,7 +19,7 @@ image:
    <A HREF="/images/OSHChip_on_1_cent_coin_w1200.jpg" target="_blank"><img src="/images/OSHChip_on_1_cent_coin_small.jpg" style="width: 100%"></A>OSHChip</p>
 <div style="clear:both;"></div>
 <div style="text-align:center"> <i> Click on pictures for a larger image </i> </div>
-<div style="text-align:center"> <i> Photo Credit: Windel Oskay </i> </div>
+<div style="text-align:center"> <i> Photo Credit: Windell Oskay </i> </div>
 </html>
  
 ## Description
@@ -48,9 +48,11 @@ pins from a strip.
 ## How Flip-Pins are used
 
 When soldered into PCBs that are commonly 0.062" thick, a near flush
-surface can be achieved on the non-pin side of the PCB (see OSHChip on a
-penny picture, above). After soldering the pins into your PCB, the
+surface can be achieved on the non-pin side of the PCB (see the OSHChip
+on a penny picture, above). After soldering the pins into your PCB, the
 plastic aligner can be easily removed and discarded.
+
+[Detailed description of how to solder Flip-Pins](/products/Soldering_Flip-Pins.html)
 
 The recommended footprint on your PCB for Flip-Pins is shown in the
 datasheet. Briefly, the holes should be 0.025" in diameter, and the
@@ -63,8 +65,15 @@ pins. For the length, the clearance area should be 0.100" times the
 number of pins +0.040". For example, for the 14 pin version of Flip-
 Pins, the clearance area is 0.120" x 1.440".
 
+## Libraries
 
-[Detailed description of how to solder Flip-Pins](/products/Soldering_Flip-Pins.html)
+For your convenience, PCB CAD libraries have already been created
+for the following CAD systems:
+
+* [Altium](/products/Flip-Pins_Altium.html){:target="_blank"}
+* [Kicad](/products/Flip-Pins_Kicad.html){:target="_blank"}
+* [Eagle]()
+
 
 ## Compatibility
 

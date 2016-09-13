@@ -5,17 +5,39 @@ excerpt: "Soldering Flip-Pins"
 tags: [Flip-Pins, OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics]
 comments: false
-modified: 2016-09-09
+modified: 2016-09-12
 image:
   feature: header.jpg
 ---
+
+### Notes
+
+Flip-Pins are held loosely within the plastic aligner, which is designed
+to tolerate soldering temperatures. The solder tail extends
+approximately 0.062" so that when installed in a PCB that is the common
+thickness of 0.062", it will result in a near flush top surface.
+Sometimes the pins can fall out before being soldered into the board.
+Just re-insert the pin into the plastic aligner, and adjust it to be at
+the same depth as the rest of the pins.
+
+If you need to install a row of pins that is not one of the standard
+lengths (8, 14, and 20 pins), you can use multiple Flip-Pins to get the
+length you need, or you can remove pins from an aligner, as needed.
+Because the length of the plastic aligner is 0.020" longer than the
+number of pins * 0.100" , the Flip-Pins can't be installed end-to-end.
+The solution is to solder the pins in two stages. For example, if you
+were adding pins to a Teensy 3.6, you would need to install 24 pins in a
+row. Place two 8 pin parts, one at each end of 24 holes, and solder in,
+then remove the two plastic aligners. You can then install the middle 8
+pin part and solder it.
+
 
 
 <html>
   <table border="1" cellpadding="5">
     <tr>
       <td style="width:50%; vertical-align:top;">Parts to be assembled. For clarity, all pictures are shown without
-                  other components. Typically you would mount all other components first, before soldering in Flip-Pins.<br><br><i>Photo Credit for all picture: Windel Oskay</i></td>
+                  other components. Typically you would mount all other components first, before soldering in Flip-Pins.<br><br><i>Photo Credit for all picture: Windell Oskay</i></td>
       <td style="width:50%;"><A HREF="/images/Flip-Pins_Assembly_Parts_to_be_assembled_w1200.jpg" target="_blank"><img src="/images/Flip-Pins_Assembly_Parts_to_be_assembled_w400.jpg"></A></td>
     </tr>
     <tr>
