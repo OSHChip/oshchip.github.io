@@ -19,7 +19,7 @@ each symbol, you can choose between two footprints.
 * One footprint has the 3D model that includes the plastic aligner, so
   you can check for clearances around the aligner.
 
-[Altium Schematic symbols and Footprints](/products/Flip-Pins_Altium_Symbols_and_Footprints_2016_09_12.zip){:target="_blank"}
+[Altium Schematic Symbols and Footprints](/products/Flip-Pins_Altium_Symbols_and_Footprints_2016_09_12.zip){:target="_blank"}
 
 ![](/images/PCB_with_all_sizes_Altium.png)
 

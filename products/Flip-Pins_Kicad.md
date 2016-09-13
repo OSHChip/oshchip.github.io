@@ -21,7 +21,7 @@ around the aligner.
 
 *Kicad symbols and footprints by Anool of [@WyoLum](https://twitter.com/wyolum){:target="_blank"}*
 
-[Kicad Schematic symbols and Footprints](/products/Flip-Pins_Kicad_Symbols_and_Footprints_2016_09_12.zip){:target="_blank"}
+[Kicad Schematic Symbols and Footprints](/products/Flip-Pins_Kicad_Symbols_and_Footprints_2016_09_12.zip){:target="_blank"}
 
 ![](/images/PCB_with_all_sizes_3D_Kicad.png)
 

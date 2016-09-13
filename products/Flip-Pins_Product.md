@@ -72,7 +72,7 @@ for the following CAD systems:
 
 * [Altium](/products/Flip-Pins_Altium.html){:target="_blank"}
 * [Kicad](/products/Flip-Pins_Kicad.html){:target="_blank"}
-* [Eagle]()
+* [Eagle](/products/Flip-Pins_Eagle.html){:target="_blank"}
 
 
 ## Compatibility
