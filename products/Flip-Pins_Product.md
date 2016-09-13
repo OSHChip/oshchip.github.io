@@ -74,6 +74,11 @@ for the following CAD systems:
 * [Kicad](/products/Flip-Pins_Kicad.html){:target="_blank"}
 * [Eagle](/products/Flip-Pins_Eagle.html){:target="_blank"}
 
+## Documents
+
+* [Datasheet Flip-Pins-XX_REV_A.pdf](/docs/Flip-Pins-XX_REV_A.pdf){:target="_blank"}
+* [Step model for a single pin](/docs/Flip-Pins_one_pin.step){:target="_blank"}
+* [Step model for a single pin with aligner](/docs/Flip-Pins_one_pin_with_aligner.step){:target="_blank"}
 
 ## Compatibility
 
@@ -107,25 +112,15 @@ Examples of Boards that can be used with Flip-Pins
 * [Sparkfun breakout boards](https://www.sparkfun.com/categories/20){:target="_blank"}
 * [Adafruit breakout boards](https://www.adafruit.com/categories/42){:target="_blank"}
 
-
-## Documents
-
-* [Datasheet Flip-Pins-XX_REV_A.pdf](/docs/Flip-Pins-XX_REV_A.pdf){:target="_blank"}
-* Step models (TBD)
-* Footprints and Symbols
-  * Altium (TBD)
-  * Kicad (TBD)
-  * Eagle (TBD)
-
 ## Buying Flip-Pins
 
 Flip-Pins are available in 3 different lengths: 8, 14, and 20 pins.
 
 The following are authorized distributors for Flip-Pins:
 
-* [Evil Mad Scientist LLC](http://shop.evilmadscientist.com/directory){:target="_blank"}
-* Vendor A (not yet setup)
-* Vendor D (not yet setup)
-* Vendor S (not yet setup)
 * At the OSHChip store on Tindie (not yet setup)
+* [Evil Mad Scientist LLC](http://shop.evilmadscientist.com/directory){:target="_blank"}
+* Distributor A (not yet setup)
+* Distributor D (not yet setup)
+* Distributor S (not yet setup)
 
