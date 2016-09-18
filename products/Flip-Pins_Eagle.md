@@ -13,8 +13,13 @@ image:
 The Eagle library for Flip-Pins contains 3 schematic symbols for the 3
 sizes (8, 14, and 20 pins).
 
+This library does not have 3D models. If you have the ability to add
+3D models to this library, given the available step models, please
+send an email to philip@oshchip.org
+
 [Eagle Schematic Symbols and Footprints](/products/Flip-Pins_Eagle_Symbols_and_Footprints_2016_09_12.zip){:target="_blank"}
 
 ![](/images/Flip-Pins_Eagle_Symbols.png)
 
 ![](/images/Flip-Pins_Eagle_Footprints.png)
+

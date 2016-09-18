@@ -87,5 +87,3 @@ pin part and solder it.
     </tr>
   </table>
 </html>
-
-
