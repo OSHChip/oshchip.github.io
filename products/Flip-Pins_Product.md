@@ -5,7 +5,7 @@ excerpt: "Flip-Pins Description"
 tags: [Flip-Pins, OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics]
 comments: false
-modified: 2016-09-12
+modified: 2016-09-28
 image:
   feature: header.jpg
 ---
@@ -118,8 +118,8 @@ Flip-Pins are available in 3 different lengths: 8, 14, and 20 pins.
 
 The following are authorized distributors for Flip-Pins:
 
-* At the [OSHChip store on Tindie](https://www.tindie.com/stores/OSHChip/){:target="_blank"}
-* [Evil Mad Scientist LLC](http://shop.evilmadscientist.com/directory){:target="_blank"}
+* [OSHChip store on Tindie](https://www.tindie.com/stores/OSHChip/){:target="_blank"}
+* [Evil Mad Scientist LLC](http://shop.evilmadscientist.com/partsmenu/290){:target="_blank"}
 * Distributor A (not yet setup)
 * Distributor D (not yet setup)
 * Distributor S (not yet setup)
