@@ -3,21 +3,50 @@
 		<a href="{{ site.url }}">{{ site.title }}</a>
 	</div><!-- /.site-name -->
 	<div class="top-navigation">
-		<nav role="navigation" id="site-nav" class="nav">
+		<nav id="main_nav" role="navigation" class="nav">
 		    <ul>
-		        {% for link in site.data.navigation %}
-					    {% if link.url contains 'http' %}
-					        {% assign domain = '' %}
-					        {% else %}
-					        {% assign domain = site.url %}
-					    {% endif %}
-					    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+		        {% for link in site.data.navigation.level0 %} <!-- level 0  -->
+							{% if link.level1 %} <!-- level 1  -->
+								<li> <!-- list element for level 1  -->
+									<a> {{link.title}} </a>
+									<ul>
+									{% for link1 in link.level1 %} <!-- iterate through level 1  -->
+									   {% if link1.url %}
+										   <li><a href="{{ domain }}{{ link1.url }}"
+											 {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link1.title }}</a></li>
+										 {% else %}
+										   {% if link1.level2 %} <!-- level 2  -->
+											   <li> <!-- list element for level 2  -->
+													 <a> {{link1.title}} </a>
+												 	 <ul>
+												   {% for link2 in link1.level2 %}
+													 	{% if link2.url %}
+															<li><a href="{{ domain }}{{ link2.url }}"
+																{% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link2.title }}</a></li>
+														{% endif %}
+													 {% endfor %}
+												   </ul>
+												 </li>
+											 {% endif %}
+										 {% endif %}
+									{% endfor %}
+									</ul>
+								</li>
+							{% else %}
+								{% if link.url contains 'http' %}
+										{% assign domain = '' %}
+								{% else %}
+										{% assign domain = site.url %}
+								{% endif %}
+								<li><a href="{{ domain }}{{ link.url }}"
+									{% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+							{% endif %}
 					  {% endfor %}
-            <!-- google search -->
-            <li> 
+            <!-- google search-->
+            <li>
               <form style="display: inline;" onsubmit="my_search_google()" >
-                <input style="width: 200px;" 
-                       type="text" placeholder="Search" 
+                <input style="width: 200px;"
+                       type="text" placeholder="Search"
                        id="my-google-search"/>
               </form>
             </li>
