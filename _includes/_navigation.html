@@ -22,7 +22,7 @@
 												   {% for link2 in link1.level2 %}
 													 	{% if link2.url %}
 															<li><a href="{{ domain }}{{ link2.url }}"
-																{% if link1.url contains 'http' %}target="_blank"{% endif %}>{{ link2.title }}</a></li>
+																{% if link2.url contains 'http' %}target="_blank"{% endif %}>{{ link2.title }}</a></li>
 														{% endif %}
 													 {% endfor %}
 												   </ul>
