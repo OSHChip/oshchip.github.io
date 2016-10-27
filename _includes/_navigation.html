@@ -13,7 +13,7 @@
 									{% for link1 in link.level1 %} <!-- iterate through level 1  -->
 									   {% if link1.url %}
 										   <li><a href="{{ domain }}{{ link1.url }}"
-											 {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link1.title }}</a></li>
+											 {% if link1.url contains 'http' %}target="_blank"{% endif %}>{{ link1.title }}</a></li>
 										 {% else %}
 										   {% if link1.level2 %} <!-- level 2  -->
 											   <li> <!-- list element for level 2  -->
@@ -22,7 +22,7 @@
 												   {% for link2 in link1.level2 %}
 													 	{% if link2.url %}
 															<li><a href="{{ domain }}{{ link2.url }}"
-																{% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link2.title }}</a></li>
+																{% if link1.url contains 'http' %}target="_blank"{% endif %}>{{ link2.title }}</a></li>
 														{% endif %}
 													 {% endfor %}
 												   </ul>
