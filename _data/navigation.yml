@@ -1,68 +1,25 @@
 # Site navigation links
 
- #- title: All Posts
+#- title: All Posts
 #  url: /posts/
 
-level0:
- - title: Products
-   level1:
-    - title: OSHchip_V1.0
-      url: /products/OSHChip_V1.0_Product.html
-    - title: OSHChip_CMSIS_DAP_V1.0
-      url: /products/OSHChip_CMSIS_DAP_V1.0_Product.html
-    - title: Flip-Pins
-      url: /products/Flip-Pins_Product.html
-    - title: Programming Cable
-      url: /products/Programming_Cable.html
-    - title: OSHChip 2x2 SWD Adapter
-      url: /products/OSHChip_SWD_2x2_Adapter.html
+- title: Products
+  url: /products/
 
- - title: Docs
-   level1:
-    - title: Schematic for OSHChip V1.0
-      url: /docs/OSHChip_V1.0___Schematic.PDF
-    - title: Schematic for OSHChip_CMSIS_DAP V1.0
-      url: /docs/OSHChip_CMSIS-DAP_V1.0___Schematic_Prints.PDF
-    - title: nRF51822 Product Specification
-      url: https://www.nordicsemi.com/eng/nordic/download_resource/20339/13/41227812
-    - title: nRF51 Series Reference Manual
-      url: https://www.nordicsemi.com/eng/nordic/download_resource/20337/12/45450728
-    - title: Connecting OSHChip to the Programmer/Debugger
-      url: /docs/OSHChip_Connections.html)
-    - title: Connecting and using the serial data interface
-      url: /docs/OSHChip_CMSIS_DAP_V1.0_Serial_Data_Interface.html
-    - title: Is OSHChip right for me
-      url: /docs/Is_OSHChip_right_for_me.html
-    - title: Peripheral Pin Assignments for OSHChip
-      url: /docs/OSHChip_Pin_Assignments.html
-    - title: Simple Blinky example using the mbed online compiler
-      url: /docs/mbed_Blinky.html
-    - title: Getting started with OSHChip
-      url: /docs/Getting_started_with_OSHChip.html
+- title: Docs
+  url: /docs/
 
- - title: Buy
-   level1:
-    - title: OSHchip_V1.0
-      url: https://www.tindie.com/products/OSHChip/oshchip-v10/
-    - title: OSHChip_CMSIS_DAP_V1.0
-      url: https://www.tindie.com/products/OSHChip/oshchip-cmsis-dap-v10-swd-programmer-and-more/
-    - title: Flip-Pins >
-      level2:
-       - title: 8 Pins
-         url: https://www.tindie.com/products/OSHChip/30-pieces-of-flip-pins-08/
-       - title: 14 Pins
-         url: https://www.tindie.com/products/OSHChip/16-pieces-of-flip-pins-14/
-       - title: 20 Pins
-         url: https://www.tindie.com/products/OSHChip/12-pieces-of-flip-pins-20/
-       - title: For Teensy 3.5 and 3.6
-         url: https://www.tindie.com/products/OSHChip/flip-pins-for-teensy-35-or-36-4-sets/
+- title: Chip Design
+  url: /chipdesign/
 
- - title: Support
-   level1:
-    - title: Forum
-      url: /forum/
-    - title: FAQ
-      url: /faq/
+- title: Buy
+  url: https://www.tindie.com/stores/OSHChip/
 
- - title: About
-   url: /about/
+- title: Forum
+  url: http://www.oshchip.com/forum
+
+- title: FAQ
+  url: /faq/
+
+- title: About
+  url: /about/
