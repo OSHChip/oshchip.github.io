@@ -5,7 +5,7 @@ excerpt: "Flip-Pins Description"
 tags: [Flip-Pins, OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics]
 comments: false
-modified: 2016-09-28
+modified: 2017-01-05
 image:
   feature: header.jpg
 ---
@@ -40,6 +40,11 @@ header pins which are square to connect their PCBs to breadboards,
 and are unaware that header pins damage the breadboard because they are
 wider than standard DIP pins. PCBs that use Flip-Pins are easier to
 insert and remove from breadboards, compared to PCBs with header pins.
+Unlike header pins, Flip-Pins are also compatible with IC sockets,
+see below for examples. This has allowed users to create PCBs that
+are replacements for existing ICs (because they are no longer
+available) or even upgrades to previous devices. These PCBs can then
+be plugged into existing IC sockets in an existing system.
 
 Flip-Pin are available in 3 lengths: 8, 14, and 20 pins. Other
 lengths can be achieved by either using multiple strips, or removing
@@ -119,7 +124,8 @@ Flip-Pins are available in 3 different lengths: 8, 14, and 20 pins.
 The following are authorized distributors for Flip-Pins:
 
 * [OSHChip store on Tindie](https://www.tindie.com/stores/OSHChip/){:target="_blank"}
-* [Evil Mad Scientist LLC](http://shop.evilmadscientist.com/partsmenu/290){:target="_blank"}
+* [Evil Mad Scientist LLC (8 pin)](http://shop.evilmadscientist.com/productsmenu/853){:target="_blank"}   [(14 pin)](http://shop.evilmadscientist.com/productsmenu/854){:target="_blank"}   [(20 pin)](http://shop.evilmadscientist.com/productsmenu/855){:target="_blank"}
+* [Sparkfun Electronics (8 pin)](https://www.sparkfun.com/products/14085){:target="_blank"}   [(14 pin)](https://www.sparkfun.com/products/14086){:target="_blank"}   [(20 pin)](https://www.sparkfun.com/products/14087){:target="_blank"}
 * Distributor A (not yet setup)
 * Distributor D (not yet setup)
-* Distributor S (not yet setup)
+

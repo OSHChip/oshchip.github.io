@@ -5,21 +5,23 @@ excerpt: "Product Description"
 tags: [OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics]
 comments: false
-modified: 2016-04-05
+modified: 2017-01-05
 image:
   feature: header.jpg
 ---
 
-![OSHChip](/images/OSHChip_Black_on_breadboard.jpg "OSHChip")
+<html>
+<p>  <A HREF="/images/OSHChip_Black_on_breadboard.jpg" target="_blank"> <img src="/images/OSHChip_Black_on_breadboard.jpg" style="width: 600px"></A></p>
+</html>
  
 ## Features
 
 OSHChip V1.0 is a minature processor board that packs an amazing
 amount of functionality into the space of a traditional 16 pin DIP
-package. It is only 0.3" (8.9 mm) wide and 0.78" (19.8 mm) long.
+package. It is only 0.35" (8.9 mm) wide and 0.78" (19.8 mm) long.
 Designed specifically for the hobbyist in mind, it features custom IC
 pins that are exactly what solderless breadboards are designed for.
-With its 0.3" (7.6 mm) pin pitch, it can plug into the middle two rows
+With its 0.3" (7.6 mm) column pin pitch, it can plug into the middle two rows
 of holes on a breadboard (just like any .3" DIP package device), and
 the remainder of the connection holes are available for your jumper
 wires. (unlike other products that cover many of the holes you might
@@ -59,9 +61,10 @@ OSHChip V1.0 includes the following functional blocks:
 
 ## Buying OSHChip
 
-* OSHChip products are sold in our store that is hosted on <a href="https://www.tindie.com/products/OSHChip/oshchip-v10/" target="_blank">Tindie</a>
+* OSHChip products are sold in our store that is hosted on [Tindie](https://www.tindie.com/products/OSHChip/oshchip-v10/){: target="_blank" }
 * The price of OSHChip_V1.0 is $25.00
 * Shipping is fixed price regardless of how many you order.
+* To program OSHChip_V1.0, you will need an SWD programmer such as [OSHChip_CMSIS_DAP_V1.0](OSHChip_CMSIS_DAP_V1.0_Product.html){:target="_blank"}
 
 ## Related Information
 
@@ -70,15 +73,14 @@ OSHChip V1.0 includes the following functional blocks:
 
 ## Resources
 
-* Very quick start, a  
+* Very quick start:  
   [Blinky program using the online mbed environment](/docs/mbed_Blinky.html)
-* Getting started with [GCC and Yotta](https://github.com/OSHChip/target-OSHChip-gcc)
-* Nordic Semiconductor's [Getting Started Guide](http://infocenter.nordicsemi.com/topic/com.nordic.infocenter.sdk5.v11.0.0/nrf51_getting_started.html?cp=4_0_0_1)  
-  (assumes Nordic's development board, and J-Link programmer)
-* [Nordic Semiconductor's Documentation library](http://infocenter.nordicsemi.com/index.jsp)
-* [Nordic Semiconductor's Development Libraries (SDK)](http://developer.nordicsemi.com)
-* [Nordic Semiconductor's Developer Zone (User Forum)](https://devzone.nordicsemi.com/questions/)
-* [Setting up development with GCC on Mac OS X](https://devzone.nordicsemi.com/blogs/22/getting-started-with-nrf51-development-on-mac-os-x/)
+* Getting started with [GCC and Yotta](https://github.com/OSHChip/target-OSHChip-gcc){:target="_blank"}
+* Nordic Semiconductor's [Getting Started Guide](http://infocenter.nordicsemi.com/topic/com.nordic.infocenter.sdk5.v12.2.0/nrf51_getting_started.html?cp=4_0_1_1){:target="_blank"}  (assumes Nordic's development board, and J-Link programmer)
+* [Nordic Semiconductor's Documentation library](http://infocenter.nordicsemi.com/index.jsp){:target="_blank"}
+* [Nordic Semiconductor's Development Libraries (SDK)](http://developer.nordicsemi.com){:target="_blank"}
+* [Nordic Semiconductor's Developer Zone (User Forum)](https://devzone.nordicsemi.com/questions/){:target="_blank"}
+* [Setting up development with GCC on Mac OS X](https://devzone.nordicsemi.com/blogs/22/getting-started-with-nrf51-development-on-mac-os-x/){:target="_blank"}
 * These links are to pages currently being developed
   * [Getting started with OSHChip](/docs/Getting_started_with_OSHChip.html)
 * These links are place holders
@@ -89,16 +91,16 @@ OSHChip V1.0 includes the following functional blocks:
   * [Setting up development with Arduino](Sorry_not_yet_written.html)
 
 At the heart of OSHChip_V1.0 is a System-On-Chip (SOC) manufactured by
-[Nordic&nbsp;Semiconductors](https://www.nordicsemi.com/). The specific
+[Nordic&nbsp;Semiconductors](https://www.nordicsemi.com/){:target="_blank"}. The specific
 product is the
 [nRF51822](https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-
-Bluetooth-low-energy/nRF51822)
+Bluetooth-low-energy/nRF51822){:target="_blank"}
 
 To use OSHChip_V1.0 you will need to become familiar with the
 documentation provided by Nordic Semiconductor. Because navigating
 their site can be challenging, start at
-[nRF51822](https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-
-Bluetooth-low-energy/nRF51822) and underneath the product title, there
+[nRF51822](https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF51822){:target="_blank"}
+and underneath the product title, there
 are a set of tabs, starting with "OVERVIEW" and ending with
 "DOWNLOADS".  Select the DOWNLOADS tab.
 
@@ -132,15 +134,19 @@ OSHChip_V1.0 uses the nRF51822 described by:
 
 |**Document**|**Version**|
 |:-----------|----------:|
-|[nRF51822 Product Specification](https://www.nordicsemi.com/eng/nordic/download_resource/20339/13/41227812) | version 3.1 |
-|[nRF51 Series Reference Manual](https://www.nordicsemi.com/eng/nordic/download_resource/20337/12/45450728) | version 3.0 |
+|[nRF51822 Product Specification](http://oshchip.com/downloads/nRF51822_PS_v3.3.pdf){:target="_blank"} | version 3.3 |
+|[nRF51 Series Reference Manual](http://oshchip.com/downloads/nRF51_Series_Reference_Manual_v3.0.pdf){:target="_blank"} | version 3.0 |
 
 ## Open Source
 
 OSHChip_V1.0 is an Open Source Hardware design. It's right there
 in the name. You can find all the schematics, bill of materials,
 printed circuit board design files and the resultant Gerber files
-here: [https://github.com/OSHChip/OSHChip_V1.0_Docs](https://github.com/OSHChip/OSHChip_V1.0_Docs)
+here: [https://github.com/OSHChip/OSHChip_V1.0_Docs](https://github.com/OSHChip/OSHChip_V1.0_Docs){:target="_blank"}
+
+<html>
+<center><img src="/images/OSHW_SPFMDBC.svg" width="200"></center>
+</html>
 
 #### Navigating the GitHub repository for OSHChip V1.0
 

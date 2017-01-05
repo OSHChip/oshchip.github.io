@@ -2,7 +2,7 @@
 layout: page
 title: Documentation
 tags: [docs, oshchip]
-modified: 2016-04-05
+modified: 2017-01-01
 comments: false
 image:
   feature: header.jpg
@@ -11,10 +11,10 @@ image:
 ## OSHChip documentation
 
 * Valid links
-  * <a href="OSHChip_V1.0___Schematic.PDF" target="_blank">Schematic for OSHChip V1.0</a>
-  * <a href="OSHChip_CMSIS-DAP_V1.0___Schematic_Prints.PDF" target="_blank">Schematic for OSHChip_CMSIS_DAP V1.0</a>
-  * [nRF51822 Product Specification](https://www.nordicsemi.com/eng/nordic/download_resource/20339/13/41227812)
-  * [nRF51 Series Reference Manual](https://www.nordicsemi.com/eng/nordic/download_resource/20337/12/45450728)
+  * [Schematic for OSHChip V1.0](OSHChip_V1.0___Schematic.PDF){:target="_blank"}
+  * [Schematic for OSHChip_CMSIS_DAP V1.0](OSHChip_CMSIS-DAP_V1.0___Schematic_Prints.PDF){:target="_blank"}
+  * [nRF51822 Product Specification](http://oshchip.com/downloads/nRF51822_PS_v3.3.pdf){:target="_blank"}
+  * [nRF51 Series Reference Manual](http://oshchip.com/downloads/nRF51_Series_Reference_Manual_v3.0.pdf){:target="_blank"}
   * [Connecting OSHChip to the Programmer/Debugger](OSHChip_Connections.html)
   * [Connecting and using the serial data interface](OSHChip_CMSIS_DAP_V1.0_Serial_Data_Interface.html)
   * [Is OSHChip right for me](/docs/Is_OSHChip_right_for_me.html)

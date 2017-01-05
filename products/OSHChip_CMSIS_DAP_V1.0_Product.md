@@ -5,7 +5,7 @@ excerpt: "Product Description"
 tags: [SWD, Debug, OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics, Programming, Debugging]
 comments: false
-modified: 2016-04-05
+modified: 2017-01-05
 image:
   feature: header.jpg
 ---
@@ -70,6 +70,15 @@ and drop interface only works with nRF51822 target processors.
 connected to anywhere in your system that has async serial I/O, so no
 specific pins on OSHChip_V1.0 are required. This interface has been
 tested extensively at 9600 Baud, but it should work at up to 115200 Baud
+
+### Serial port driver for Windows
+
+*Only for Windows*
+
+After connecting an OSHChip_CMSIS_DAP_V1.0 to your computer for the first time,
+and the automatic driver process has completed, an additional driver needs to be
+installed. [mbed serial driver installation](https://developer.mbed.org/handbook/Windows-serial-configuration){:target="_blank"}  
+(this needs to be done regardless of which of the two firmware images you have installed)
 
 ## Buying OSHChip_CMSIS_DAP_V1.0
 
