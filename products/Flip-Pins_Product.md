@@ -5,7 +5,7 @@ excerpt: "Flip-Pins Description"
 tags: [Flip-Pins, OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics]
 comments: false
-modified: 2017-01-05
+modified: 2017-03-22
 image:
   feature: header.jpg
 ---
@@ -54,13 +54,14 @@ pins from a strip.
 
 When soldered into PCBs that are commonly 0.062" thick, a near flush
 surface can be achieved on the non-pin side of the PCB (see the OSHChip
-on a penny picture, above). After soldering the pins into your PCB, the
+on a penny picture, above). If you use a thinner PCB (such as .032"), then
+part of the pin will be above the PCB. After soldering the pins into your PCB, the
 plastic aligner can be easily removed and discarded.
 
 [Detailed description of how to solder Flip-Pins](/products/Soldering_Flip-Pins.html)
 
 The recommended footprint on your PCB for Flip-Pins is shown in the
-datasheet. Briefly, the holes should be 0.025" in diameter, and the
+datasheet. Briefly, **the holes should be 0.025 inches** in diameter, and the
 associated pads should be at least 0.040" in diameter. On the top side
 of your PCB (the side that does not have the pins) you can place
 components and vias close to the pads. On the bottom of the PCB, you
