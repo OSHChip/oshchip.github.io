@@ -89,17 +89,19 @@ Because the length of the plastic aligner is 0.020" longer than the
 number of pins times 0.100" , the Flip-Pins can't be installed end-to-end.
 The solution is to solder the pins in two stages. For example, if you
 were adding pins to a Teensy 3.6 (it needs two rows of 24 pins each),
-you could use two 20-pin parts and one 8-pin part. Position the 20-pin
-Flip-Pin strips so that there are
-4 consecutive empty holes at one end on the Teensy. After these pins
-have been installed, remove the plastic aligner. Take the 8-pin
-Flip-Pins strip and remove 4 pins from one end, and place the
-resulting 4 pins into the empty holes, and the 4 empty positions
-in the plastic aligner over the adjacent 4 pins of the 20-pin strip
-that you have already installed. This will align the remaining
-4 pins with the rest of the row. Solder in the 4 pins. Place the
-4 pins you removed from the 8-pin strip back into the plastic
-aligner, and repeat the soldering process for the other side.
+you could use two 20-pin parts and one 8-pin part.
+
+Position the 20-pin Flip-Pin strips so that there are
+4 consecutive empty holes at one end on the Teensy. After these 20
+pins have been soldered in (on both sides of the Teensy), remove the
+plastic aligner. Take the 8-pin Flip-Pins strip and remove 4 pins from
+one end, and place the remaining 4 pins into the empty holes on the
+Teensy, and the 4 empty positions in the 8 pin plastic aligner over
+the adjacent 4 pins of the 20-pin strip that you have already installed.
+This will align the remaining 4 pins with the rest of the row. Solder
+in the 4 pins. Place the 4 pins you removed from the 8-pin strip back
+into the plastic aligner, and repeat the soldering process for the
+other side.
 
 #### How much solder is enough?
 
@@ -127,8 +129,9 @@ the solder from the hole in the PCB (solder sucker or
 solder wick). Then take one of the plastic aligners (did
 you keep them after soldering the pins?) and place pins
 into it just for the positions being reworked, the
-remaining holes are left empty, and match the pins already
-on the PCB that are not being re-worked. You should then
+remaining holes in the aligner are left empty, and match
+the pins already on the PCB that are not being re-worked.
+You should then
 be able to place the aligner with the rework pins back
 over the pins on the PCB, and everything should be nicely
 aligned. Then just solder these pins.
