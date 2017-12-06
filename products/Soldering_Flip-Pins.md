@@ -5,7 +5,7 @@ excerpt: "Soldering Flip-Pins"
 tags: [Flip-Pins, OSHChip, nRF51822, BLE, Bluetooth Low Energy, Bluetooth Smart]
 categories: [Electronics]
 comments: false
-modified: 2017-03-22
+modified: 2017-12-06
 image:
   feature: header.jpg
 ---
@@ -135,4 +135,3 @@ You should then
 be able to place the aligner with the rework pins back
 over the pins on the PCB, and everything should be nicely
 aligned. Then just solder these pins.
-
